@@ -1,0 +1,64 @@
+/* custom global css */
+
+/* variables */
+:root {
+	--main-color: #119c49;
+	--second-color: #006027;
+	/* --third-color: #eff4f0; */
+	--main-transition: all 0.25s ease-in-out 0s;
+	--second-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+	--main-font-family: "Mulish", sans-serif;
+	--second-font-family: "NexaLight", sans-serif;
+}
+
+/* backgrounds */
+.main-bg-color {
+	background: var(--main-color);
+}
+.second-bg-color {
+	background: var(--second-color);
+}
+.black-bg-color {
+	background: #000;
+}
+.white-bg-color {
+	background: #fff;
+}
+.gray-bg-color {
+	background: #ececec;
+}
+
+/* colors */
+.main-color {
+	color: var(--main-color);
+}
+.second-color {
+	color: var(--second-color);
+}
+.black-color {
+	color: #000;
+}
+.white-color {
+	color: #fff;
+}
+.gray-color {
+	color: #ececec;
+}
+
+/* scrollbar */
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px #d4d4d4;
+	box-shadow: inset 0 0 6px #d4d4d4;
+	background-color: #d4d4d4;
+}
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: #313131;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #313131;
+}
+* {
+	scrollbar-color: #313131 #8f8f8f;
+	scrollbar-width: thin;
+}
