@@ -2,18 +2,18 @@
 	<div class="mx-0 flex max-w-full flex-wrap items-center lg:mx-auto relative top-[50%] start-[50%] transform -translate-x-1/2 -translate-y-1/2">
 		<div class="ltr:mx-2 rtl:mx-2">
 			<button id="toggle-menu-hide" class="button-menu-mobile flex rounded-full md:me-0 relative">
-				<!-- <i class="ti ti-chevrons-left text-3xl  top-icon"></i> -->
+				<!-- <i class="ti ti-chevrons-left text-3xl top-icon"></i> -->
 				<i data-lucide="menu" class="top-icon w-5 h-5"></i>
 			</button>
 		</div>
-		<div class="flex items-center md:w-[40%] lg:w-[30%] xl:w-[20%]">
+		<!-- <div class="flex items-center md:w-[40%] lg:w-[30%] xl:w-[20%]">
 			<div class="relative ltr:mx-2 rtl:mx-2 self-center">
 				<button class="px-2 py-1 bg-primary-500/10 border border-transparent collapse:bg-green-100 text-primary text-sm rounded hover:bg-blue-600 hover:text-white">
 					<i class="ti ti-plus me-1"></i>
 					Novi unos
 				</button>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="order-1 ltr:ms-auto rtl:ms-0 rtl:me-auto flex items-center md:order-2">
 			<div class="ltr:me-2 ltr:md:me-4 rtl:me-0 rtl:ms-2 rtl:lg:me-0 rtl:md:ms-4 dropdown relative">
@@ -43,64 +43,102 @@
 				<div class="left-auto right-0 z-50 my-1 hidden w-64 list-none divide-y h-52 divide-gray-100 rounded border border-slate-700/10 text-base shadow dark:divide-gray-600 bg-white dark:bg-slate-800" id="navNotifications" data-simplebar>
 					<ul class="py-1" aria-labelledby="navNotifications">
 						<li class="py-2 px-4">
-							<a href="javascript:void(0);" class="dropdown-item">
+							<a href="report-full.php" class="dropdown-item">
 								<div class="flex">
 									<div class="h-8 w-8 rounded-full bg-primary-500/20 inline-flex me-3">
-										<span data-lucide="shopping-cart" class="w-4 h-4 inline-block text-primary-500 dark:text-primary-400 self-center mx-auto"></span>
+										<span data-lucide="book" class="w-4 h-4 inline-block text-primary-500 dark:text-primary-400 self-center mx-auto"></span>
 									</div>
 									<div class="flex-grow flex-1 ms-0.5 overflow-hidden">
 										<p class="text-sm font-medium text-gray-900 truncate dark:text-gray-300">
-											Marko Menadžer
+											Prioritetan radni nalog za odobrenje
 										</p>
 										<p class="text-gray-500 mb-0 text-xs truncate dark:text-gray-400">
-											test test
+											22.01.2024. 22:00h
 										</p>
 									</div>
 								</div>
 							</a>
 						</li>
 						<li class="py-2 px-4">
-							<a href="javascript:void(0);" class="dropdown-item">
+							<a href="report-full.php" class="dropdown-item">
 								<div class="flex">
-									<img class="object-cover rounded-full h-8 w-8 shrink-0 me-3" src="assets/images/users/avatar-3.png" alt="logo" />
+									<div class="h-8 w-8 rounded-full inline-flex me-3">
+										<span data-lucide="book" class="w-4 h-4 inline-block text-primary-500 dark:text-primary-400 self-center mx-auto"></span>
+									</div>
 									<div class="flex-grow flex-1 ms-0.5 overflow-hidden">
 										<p class="text-sm font-medium text-gray-900 truncate dark:text-gray-300">
-											Imate nov izveštaj
+											Nov radni nalog za odobrenje
 										</p>
 										<p class="text-gray-500 mb-0 text-xs truncate dark:text-gray-400">
-											Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+											22.01.2024. 20:45h
 										</p>
 									</div>
 								</div>
 							</a>
 						</li>
 						<li class="py-2 px-4">
-							<a href="javascript:void(0);" class="dropdown-item">
+							<a href="report-full.php" class="dropdown-item">
 								<div class="flex">
-									<div class="h-8 w-8 rounded-full bg-primary-500/20 inline-flex me-3">
-										<span data-lucide="user" class="w-4 h-4 inline-block text-primary-500 dark:text-primary-400 self-center mx-auto"></span>
+									<div class="h-8 w-8 rounded-full inline-flex me-3">
+										<span data-lucide="book" class="w-4 h-4 inline-block text-primary-500 dark:text-primary-400 self-center mx-auto"></span>
 									</div>
 									<div class="flex-grow flex-1 ms-0.5 overflow-hidden">
 										<p class="text-sm font-medium text-gray-900 truncate dark:text-gray-300">
-											Borko Ristić
+											Nov radni nalog za odobrenje
 										</p>
 										<p class="text-gray-500 mb-0 text-xs truncate dark:text-gray-400">
-											Lorem ipsum dolor sit.
+											22.01.2024. 20:46h
 										</p>
 									</div>
 								</div>
 							</a>
 						</li>
 						<li class="py-2 px-4">
-							<a href="javascript:void(0);" class="dropdown-item">
+							<a href="report-full.php" class="dropdown-item">
 								<div class="flex">
-									<img class="object-cover rounded-full h-8 w-8 shrink-0 me-3" src="assets/images/users/avatar-9.png" alt="logo" />
+									<div class="h-8 w-8 rounded-full inline-flex me-3">
+										<span data-lucide="book" class="w-4 h-4 inline-block text-primary-500 dark:text-primary-400 self-center mx-auto"></span>
+									</div>
 									<div class="flex-grow flex-1 ms-0.5 overflow-hidden">
 										<p class="text-sm font-medium text-gray-900 truncate dark:text-gray-300">
-											omercijalisti
+											Nov radni nalog za odobrenje
 										</p>
 										<p class="text-gray-500 mb-0 text-xs truncate dark:text-gray-400">
-											Lorem ipsum dolor sit.
+											22.01.2024. 20:47h
+										</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="py-2 px-4">
+							<a href="report-full.php" class="dropdown-item">
+								<div class="flex">
+									<div class="h-8 w-8 rounded-full inline-flex me-3">
+										<span data-lucide="book" class="w-4 h-4 inline-block text-primary-500 dark:text-primary-400 self-center mx-auto"></span>
+									</div>
+									<div class="flex-grow flex-1 ms-0.5 overflow-hidden">
+										<p class="text-sm font-medium text-gray-900 truncate dark:text-gray-300">
+											Nov radni nalog za odobrenje
+										</p>
+										<p class="text-gray-500 mb-0 text-xs truncate dark:text-gray-400">
+											20:48h
+										</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="py-2 px-4">
+							<a href="report-full.php" class="dropdown-item">
+								<div class="flex">
+									<div class="h-8 w-8 rounded-full inline-flex me-3">
+										<span data-lucide="book" class="w-4 h-4 inline-block text-primary-500 dark:text-primary-400 self-center mx-auto"></span>
+									</div>
+									<div class="flex-grow flex-1 ms-0.5 overflow-hidden">
+										<p class="text-sm font-medium text-gray-900 truncate dark:text-gray-300">
+											Nov radni nalog za odobrenje
+										</p>
+										<p class="text-gray-500 mb-0 text-xs truncate dark:text-gray-400">
+											21:00h
 										</p>
 									</div>
 								</div>
@@ -117,7 +155,7 @@
 							Borko Ristić
 						</span>
 						<span class="-mt-0.5 block text-xs text-slate-500 dark:text-gray-400">
-							Admin
+							Super admin
 						</span>
 					</span>
 				</button>

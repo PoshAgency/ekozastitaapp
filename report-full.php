@@ -9,7 +9,7 @@
 
 </head>
 
-<body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="order-group-page bg-[#EEF0FC] dark:bg-gray-900">
+<body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="report-full-page bg-[#EEF0FC] dark:bg-gray-900">
 
 <!-- leftbar-tab-menu -->
 <?php include('templates/left-bar.php'); ?>		

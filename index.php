@@ -24,7 +24,7 @@
 					<div class="w-full">
 						<div class="flex flex-wrap justify-between">
 							<div class="items-center">
-								<h1 class="font-medium text-3xl block dark:text-slate-100">Template</h1>
+								<h1 class="font-medium text-3xl block dark:text-slate-100">Kontrolna tabla</h1>
 								<ol class="list-reset flex text-sm">
 									<li>
 										<a href="#" class="text-gray-500 dark:text-slate-400">Ekozaštita</a>
@@ -32,11 +32,7 @@
 									<li>
 										<span class="text-gray-500 dark:text-slate-400 mx-2">/</span>
 									</li>
-									<li class="text-gray-500 dark:text-slate-400">Stranice</li>
-									<li>
-										<span class="text-gray-500 dark:text-slate-400 mx-2">/</span>
-									</li>
-									<li class="text-primary-500 hover:text-primary-600 dark:text-primary-400">Template</li>
+									<li class="text-gray-500 dark:text-slate-400">Kontrolna tabla</li>
 								</ol>
 							</div>
 							<div class="flex items-center">
@@ -55,26 +51,26 @@
 					<div class="w-full relative mb-4">
 						<div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
 							<div class="flex-none md:flex">
-								<h4 class="font-medium flex-1 self-center mb-2 md:mb-0 text-xxl">Sales Report</h4>
+								<h4 class="font-medium flex-1 self-center mb-2 md:mb-0 text-xxl">Broj izveštaja</h4>
 								<div class="dropdown inline-block">
 									<button data-fc-autoclose="both" data-fc-type="dropdown" class="dropdown-toggle px-3 py-1 text-xs font-medium text-gray-500 focus:outline-none bg-white rounded border border-gray-200 hover:bg-gray-50 hover:text-slate-800 focus:z-10 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" type="button">
-										This Month 
+										Ovog meseca 
 										<i class="fas fa-chevron-down text-xs ml-2"></i>
 									</button>
 									<!-- Dropdown menu -->
 									<div class="right-auto md:right-0 hidden z-10 w-28 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
 										<ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
 										<li>
-											<a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Today</a>
+											<a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Danas</a>
 										</li>
 										<li>
-											<a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Last Week</a>
+											<a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Prošle nedelje</a>
 										</li>
 										<li>
-											<a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Last Month</a>
+											<a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Prošlog meseca</a>
 										</li>
 										<li>
-											<a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">This Year</a>  
+											<a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Ove godine</a>  
 										</li>
 										</ul>
 									</div>
