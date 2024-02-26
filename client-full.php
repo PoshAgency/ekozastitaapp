@@ -125,16 +125,14 @@
 							<div class="col-span-12 sm:col-span-12 md:col-span-7">
 								<span class="dark:text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dicta autem ex eos, facilis eius nisi delectus et quam itaque. Veritatis exercitationem ex eos qui necessitatibus quasi temporibus ullam vel!</span>
 							</div>
-							<div class="col-span-12 sm:col-span-12 md:col-span-12 text-center">
-								<a href="client-full-edit.php" class="px-2 py-1 bg-primary-500/10 border border-transparent collapse:bg-green-100 text-primary text-sm rounded hover:bg-blue-600 hover:text-white">
-									<i class="ti ti-plus me-1"></i>
-									Izmeni
-								</a>
-							</div>							
 						</div>
 						<div class="border-b border-dashed dark:border-slate-700/40 my-3 group-data-[sidebar=dark]:border-slate-700/40 group-data-[sidebar=brand]:border-slate-700/40"></div>
-						<h5 class="text-xl font-semibold mb-4 dark:text-slate-300">O klijentu</h5>
-						<p class="dark:text-slate-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ipsam saepe cumque debitis, voluptatem adipisci ea, repellendus, natus dicta ab sequi earum. Tempora laudantium quo rem ex, inventore architecto quam!</p>
+						<div class="col-span-12 sm:col-span-12 md:col-span-12 text-center mb-5">
+							<a href="client-full-edit.php" class="px-2 py-1 bg-primary-500/10 border border-transparent collapse:bg-green-100 text-primary text-sm rounded hover:bg-blue-600 hover:text-white">
+								<i class="ti ti-plus me-1"></i>
+								Izmeni
+							</a>
+						</div>							
 						<div class="mt-4 text-center">
 							<a href="javascript:;" target="_blank" class="border-2 border-slate-200/50 dark:border-slate-600/60 inline-flex rounded-full cursor-pointer">
 								<img src="assets/images/logos/facebook.png" alt="" class="rounded-full h-9 w-9">                                    
@@ -211,164 +209,416 @@
 							<div id="myTabContent">
 								<div class="active  p-4 bg-gray-50 rounded-lg dark:bg-gray-700/20" id="orders" role="tabpanel" aria-labelledby="orders-tab">
 									<div class="grid grid-cols-1 p-0 md:p-4">
+										<div class="flex flex-wrap gap-4 mb-3">
+											<div class="ms-auto">
+												<form>
+													<div class="relative">
+														<div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+															<i data-lucide="search" class="z-[1] w-5 h-5 stroke-slate-400"></i>
+														</div>
+														<input type="search" id="productSearch" class="form-input w-52 rounded-md mt-1 border border-slate-600 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none placeholder:text-slate-400 placeholder:font-normal placeholder:text-sm placeholder:text-gray-500 dark:focus:border-primary-500 dark:hover:border-slate-700 pl-10 p-2.5 text-gray-500" placeholder="Pretraži">
+													</div>
+												</form>
+											</div>
+											<!-- <div>
+												<a href="client-full-edit.php" class="inline-block focus:outline-none bg-brand-500 mt-1 text-white hover:bg-brand-600 hover:text-white  text-md font-medium py-2 px-4 rounded">
+													Dodaj klijenta
+												</a>
+											</div> -->
+										</div>
 										<div class="sm:-mx-6 lg:-mx-8">
 											<div class="relative overflow-x-auto block w-full sm:px-6 lg:px-8">
 												<table class="w-full">
-													<thead class="bg-gray-50 dark:bg-gray-600/20">
+													<thead class="bg-gray-50 dark:bg-gray-700/20">
 														<tr>
-															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Order ID
+															<th scope="col" class="p-3">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i title="Izaberi sve" class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Payment
+																Naziv objekta
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Date
+																Adresa
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Invoice
+																Telefon
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Status
+																Datum poslednje izmene
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Action
+																Izveštaj
+															</th>
+															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
+																Akcija
 															</th>
 														</tr>
 													</thead>
 													<tbody>
 														<!-- 1 -->
-														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">    
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">#332152</a>
-															</td>                                                                
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																$300
+																<a href="client-full.php" class="flex items-center">
+																	<!-- <img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block"> -->
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">CMK 870 Kijevo</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																28 Nov 2023
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Jurija Gagarina 14</span>
+															</td>                                                                    
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">Invoice</a>
+																30.11.2021.
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-green-600/5 text-green-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">Shiped</span>
+																892
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 2 -->
-														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">    
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">#365214</a>
-															</td>                                                                
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																$450
+																<a href="client-full.php" class="flex items-center">
+																	<!-- <img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block"> -->
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Nicolas Wright</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																01 Oct 2023
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Jurija Gagarina 14</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">Invoice</a>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-green-600/5 text-green-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">Shiped</span>
+																30.11.2021.
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																892
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 3 -->
-														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">    
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">#635987</a>
-															</td>                                                                
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																$600
+																<a href="client-full.php" class="flex items-center">
+																	<!-- <img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block"> -->
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Luna Winston</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																20 Feb 2023
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Jurija Gagarina 14</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">Invoice</a>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-yellow-600/5 text-yellow-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">Panding</span>
+																30.11.2021.
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																892
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 4 -->
-														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">    
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">#258963</a>
-															</td>                                                                
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																$850
+																<a href="client-full.php" class="flex items-center">
+																	<!-- <img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block"> -->
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Alejandro Ruiz</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																08 Dec 2023
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Jurija Gagarina 14</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">Invoice</a>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-green-600/5 text-green-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">Shiped</span>
+																30.11.2021.
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																892
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--5-->
-														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">    
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">#321456</a>
-															</td>                                                                
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																$530
+																<a href="client-full.php" class="flex items-center">
+																	<!-- <img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block"> -->
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Jesus Oates</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																30 Mar 2023
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Jurija Gagarina 14</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">Invoice</a>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-red-600/5 text-red-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">Cancel</span>
+																30.11.2021.
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																892
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--6-->
-														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">    
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">#989896</a>
-															</td>                                                                
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																$1120
+																<a href="client-full.php" class="flex items-center">
+																	<!-- <img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block"> -->
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Glenn Rogers</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																20 Sep 2023
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Jurija Gagarina 14</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-primary-500 underline">Invoice</a>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-green-600/5 text-green-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">Shiped</span>
+																30.11.2021.
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																892
 															</td>
-														</tr>                                                                
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--7-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<!-- <img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block"> -->
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">April Boyce</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Jurija Gagarina 14</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																30.11.2021.
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																892
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--8-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<!-- <img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block"> -->
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Maria Johnson</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Jurija Gagarina 14</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																30.11.2021.
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																892
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--9-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<!-- <img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block"> -->
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Anna Ruiz</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Jurija Gagarina 14</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																30.11.2021.
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																892
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--10-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<!-- <img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block"> -->
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Lisa Henriquez</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Jurija Gagarina 14</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																30.11.2021.
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																892
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
 													</tbody>
 												</table>
 											</div>
@@ -408,247 +658,430 @@
 										<div class="sm:-mx-6 lg:-mx-8">
 											<div class="relative overflow-x-auto block w-full sm:px-6 lg:px-8">
 												<table class="w-full">
-													<thead class="bg-gray-50 dark:bg-gray-600/20">
+													<thead class="bg-gray-50 dark:bg-gray-700/20">
 														<tr>
 															<th scope="col" class="p-3">
 																<label class="custom-label">
-																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block leading-5 text-center -mb-[6px]">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
 																	<input type="checkbox" class="hidden" >
-																	<i class="icofont-verification-check hidden text-xs text-brand-500 dark:text-slate-200"></i>
+																	<i title="Izaberi sve" class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
 																	</div>
 																</label>
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Product & Title
+																Klijent
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Categories
+																Telefon
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Stock status
+																Email
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Attributes
+																Grad
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Price
+																Adresa
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Date
+																Kontakt osaoba
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Action
+																Akcija
 															</th>
 														</tr>
 													</thead>
 													<tbody>
-														
 														<!-- 1 -->
 														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
 															<td class="w-4 p-4">
 																<label class="custom-label">
-																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block leading-5 text-center -mb-[6px]">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
 																	<input type="checkbox" class="hidden" >
-																	<i class="icofont-verification-check hidden text-xs text-brand-500 dark:text-slate-200"></i>
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
 																	</div>
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<div class="flex items-center">
-																	<img src="assets/images/products/pro-4.png" alt="" class="me-2 h-8 inline-block">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Mannat 530 Bluetooth Wireless </h5>
-																		<span class="block  font-medium text-slate-500">Size-M (Model 2023)</span>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Delhaize Serbia d.o.o.</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
-																</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-brand-500 underline">Footwear</a>,
-																<a href="#" class="text-brand-500 underline">Lifestayle</a>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-green-600/5 text-green-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">In stock</span>
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<div>color : 
-																	<span class="ms-2">
-																		<i class="icofont-brand-mts text-red-500"></i> 
-																		<i class="icofont-brand-mts text-gray-500"></i>
-																		<i class="icofont-brand-mts text-black"></i>
-																	</span>
-																</div>
-																<div>Size : 
-																	<span class="mx-1">M</span>
-																	<span class="mx-1">L</span>
-																</div>
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>                                                                    
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
-																$79 <del class="text-slate-500 font-normal">$99</del>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-															12 Jan 2023
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
-														<!--2-->
+														<!-- 2 -->
 														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
 															<td class="w-4 p-4">
 																<label class="custom-label">
-																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block leading-5 text-center -mb-[6px]">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
 																	<input type="checkbox" class="hidden" >
-																	<i class="icofont-verification-check hidden text-xs text-brand-500 dark:text-slate-200"></i>
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
 																	</div>
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<div class="flex items-center">
-																	<img src="assets/images/products/pro-5.png" alt="" class="me-2 h-8 inline-block">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Mannat Watch 3 Active </h5>
-																		<span class="block  font-medium text-slate-500">Latest Model 2023</span>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Nicolas Wright</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
-																</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-brand-500 underline">Fashion</a>,
-																<a href="#" class="text-brand-500 underline">Lifestayle</a>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-green-600/5 text-green-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">In stock</span>
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<div>color : 
-																	<span class="ms-2">
-																		<i class="icofont-brand-mts text-orange-500"></i> 
-																		<i class="icofont-brand-mts text-purple-500"></i>
-																	</span>
-																</div>
-																<div>Size : 
-																	<span class="ms-2">S</span>
-																	<span class="mx-1">M</span>
-																	<span class="mx-1">L</span>
-																	<span class="mx-1">XL</span>
-																	<span class="mx-1">XXL</span>
-																</div>
-															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
-																$219 <del class="text-slate-500 font-normal">$299</del>
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-															25 Nov 2023
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
-														<!--3-->
+														<!-- 3 -->
 														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
 															<td class="w-4 p-4">
 																<label class="custom-label">
-																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block leading-5 text-center -mb-[6px]">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
 																	<input type="checkbox" class="hidden" >
-																	<i class="icofont-verification-check hidden text-xs text-brand-500 dark:text-slate-200"></i>
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
 																	</div>
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<div class="flex items-center">
-																	<img src="assets/images/products/pro-6.png" alt="" class="me-2 h-8 inline-block">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Mannat Watch 3 Active </h5>
-																		<span class="block  font-medium text-slate-500">Latest Model 2023</span>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Luna Winston</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
-																</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-brand-500 underline">Fashion</a>,
-																<a href="#" class="text-brand-500 underline">Lifestayle</a>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-green-600/5 text-green-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">In stock</span>
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<div>color : 
-																	<span class="ms-2">
-																		<i class="icofont-brand-mts text-orange-500"></i> 
-																		<i class="icofont-brand-mts text-purple-500"></i>
-																	</span>
-																</div>
-																<div>Size : 
-																	<span class="ms-2">S</span>
-																	<span class="mx-1">M</span>
-																	<span class="mx-1">L</span>
-																	<span class="mx-1">XL</span>
-																	<span class="mx-1">XXL</span>
-																</div>
-															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
-																$219 <del class="text-slate-500 font-normal">$299</del>
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-															25 Nov 2023
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
-														<!--4-->
+														<!-- 4 -->
 														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
 															<td class="w-4 p-4">
 																<label class="custom-label">
-																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block leading-5 text-center -mb-[6px]">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
 																	<input type="checkbox" class="hidden" >
-																	<i class="icofont-verification-check hidden text-xs text-brand-500 dark:text-slate-200"></i>
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
 																	</div>
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<div class="flex items-center">
-																	<img src="assets/images/products/01.png" alt="" class="me-2 h-8 inline-block">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">White Table Camera</h5>
-																		<span class="block  font-medium text-slate-500">256px, 301px (Model 2023)</span>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Alejandro Ruiz</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
-																</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#" class="text-brand-500 underline">Electronics</a>,
-																<a href="#" class="text-brand-500 underline">Security</a>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-red-600/5 text-red-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">Soldout</span>
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<div>color : 
-																	<span class="ms-2">
-																		<i class="icofont-brand-mts text-gray-100"></i> 
-																	</span>
-																</div>
-																<div>Size : 
-																	<span class="ms-2">S</span>
-																	<span class="mx-1">M</span>
-																	<span class="mx-1">L</span>
-																	<span class="mx-1">XL</span>
-																	<span class="mx-1">XXL</span>
-																</div>
-															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
-																$99 <del class="text-slate-500 font-normal">$150</del>
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-															20 Jul 2023
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
-														
+														<!--5-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Jesus Oates</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--6-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Glenn Rogers</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--7-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">April Boyce</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--8-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Maria Johnson</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--9-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Anna Ruiz</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--10-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Lisa Henriquez</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
 													</tbody>
 												</table>
 											</div>
@@ -688,120 +1121,428 @@
 										<div class="sm:-mx-6 lg:-mx-8">
 											<div class="relative overflow-x-auto block w-full sm:px-6 lg:px-8">
 												<table class="w-full">
-													<thead class="bg-gray-50 dark:bg-gray-600/20">
+													<thead class="bg-gray-50 dark:bg-gray-700/20">
 														<tr>
-															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Items
+															<th scope="col" class="p-3">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i title="Izaberi sve" class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Review
+																Klijent
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Status
+																Telefon
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Date
+																Email
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Action
+																Grad
+															</th>
+															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
+																Adresa
+															</th>
+															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
+																Kontakt osaoba
+															</th>
+															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
+																Akcija
 															</th>
 														</tr>
 													</thead>
-													<tbody>														
+													<tbody>
 														<!-- 1 -->
 														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
-															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<div class="flex items-center">
-																	<img src="assets/images/products/pro-5.png" alt="" class="me-2 h-8 inline-block">
-																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Mannat Watch 3 Active </h5>
-																		<span class="block  font-medium text-slate-500">Latest Model 2023</span>
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
 																	</div>
-																</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Delhaize Serbia d.o.o.</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<ul class="flex">
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																</ul>
-															</td>
-															
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-green-600/5 text-green-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">SUCCESS</span>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																	20 Feb 2023
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>                                                                    
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 2 -->
 														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
-															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<div class="flex items-center">
-																	<img src="assets/images/products/pro-1.png" alt="" class="me-2 h-8 inline-block">
-																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">New Colorfull Shoes </h5>
-																		<span class="block  font-medium text-slate-500">Size-04-15 (Model 2023)</span>
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
 																	</div>
-																</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Nicolas Wright</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<ul class="flex">
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																</ul>
-															</td>
-															
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-green-600/5 text-green-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">SUCCESS</span>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																	20 Feb 2023
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 3 -->
 														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
-															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<div class="flex items-center">
-																	<img src="assets/images/products/pro-3.png" alt="" class="me-2 h-8 inline-block">
-																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Mannat HD, Smart LED Fire TV </h5>
-																		<span class="block  font-medium text-slate-500">32 inc (Model 2023)</span>
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
 																	</div>
-																</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Luna Winston</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<ul class="flex">
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																	<li><i class="icofont-star text-yellow-400"></i></li>
-																</ul>
-															</td>
-															
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<span class="bg-green-600/5 text-green-600 text-[11px] font-medium px-2.5 py-0.5 rounded h-5">SUCCESS</span>
+																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																	20 Feb 2023
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="#"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="#"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400"></i></a>
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!-- 4 -->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Alejandro Ruiz</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--5-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Jesus Oates</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--6-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Glenn Rogers</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--7-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">April Boyce</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--8-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Maria Johnson</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--9-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Anna Ruiz</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+															</td>
+														</tr>
+														<!--10-->
+														<tr class="bg-white border-b border-dashed dark:bg-gray-900 dark:border-gray-700/40">
+															<td class="w-4 p-4">
+																<label class="custom-label">
+																	<div class="bg-white dark:bg-slate-600/40 border border-slate-200 dark:border-slate-600 rounded w-5 h-5  inline-block  text-center -mb-[5px]">
+																	<input type="checkbox" class="hidden" >
+																	<i class="icofont-verification-check hidden text-ms text-brand-500 dark:text-slate-200 leading-5"></i>
+																	</div>
+																</label>
+															</td>
+															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
+																<a href="client-full.php" class="flex items-center">
+																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
+																	<div class="self-center">                                                                        
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Lisa Henriquez</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
+																	</div>
+																</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																+1 123 456789
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Jurija Gagarina 14
+															</td>
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+																Maja Mandić
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
+																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 													</tbody>

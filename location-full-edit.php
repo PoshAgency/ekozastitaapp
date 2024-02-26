@@ -53,9 +53,16 @@
 			<div class="main-content-wrapper grid grid-cols-12 sm:grid-cols-12 md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12 gap-4 justify-between">
 				<div class="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-6 xl:col-span-4">
 					<div class="w-full relative p-4"> 
-						<label for="" class="font-medium text-sm text-slate-600 dark:text-slate-400">Postavi sliku</label>
-						<div class="w-full h-56 mx-auto  mb-4">
+						<label for="" class="font-medium text-sm text-slate-600 dark:text-slate-400">Mapa mamaka</label>
+						<div class="w-full h-56 mx-auto mb-4">
 							<input type="file" class="filepond h-56" name="filepond" accept="image/png, image/jpeg, image/gif" />                                    
+						</div>
+						<div id="uploads-container" class="grid grid-cols-2 gap-2">
+							<input type="file" class="filepond"/>
+							<input type="file" class="filepond"/>
+						</div>
+						<div class="btn-holder col-span-12 text-center mt-5">
+							<button id="add-more-uploads" type="button" class="px-2 py-1 lg:px-4 bg-primary text-white text-sm  rounded-full transition hover:bg-primary-600 border border-primary font-medium">Dodaj još mamaca</button>
 						</div>
 					</div>                               
 				</div>
@@ -144,6 +151,18 @@
 		taggable: true,
 		tagSeperators: [",", "|"]
 	});
+</script>
+<script>
+document.getElementById("add-more-uploads").addEventListener("click", function() {
+    var container = document.getElementById("uploads-container");
+    var inputField = document.createElement("input");
+    inputField.setAttribute("type", "file");
+    inputField.classList.add("filepond");
+    container.appendChild(inputField);
+
+    // Inicijalizacija FilePond-a
+    FilePond.parse(document.body);
+});
 </script>
 
 </body>

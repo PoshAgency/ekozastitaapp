@@ -118,7 +118,7 @@
 																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
 																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Delhaize Serbia d.o.o.</h5>
-																		<span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
@@ -134,7 +134,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -157,7 +157,7 @@
 																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
 																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Nicolas Wright</h5>
-																		<span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
@@ -173,7 +173,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -196,7 +196,7 @@
 																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
 																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Luna Winston</h5>
-																		<span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
@@ -212,7 +212,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -235,7 +235,7 @@
 																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
 																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Alejandro Ruiz</h5>
-																		<span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
@@ -251,7 +251,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -274,7 +274,7 @@
 																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
 																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Jesus Oates</h5>
-																		<span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
@@ -290,7 +290,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -313,7 +313,7 @@
 																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
 																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Glenn Rogers</h5>
-																		<span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
@@ -329,7 +329,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -352,7 +352,7 @@
 																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
 																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">April Boyce</h5>
-																		<span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
@@ -368,7 +368,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -391,7 +391,7 @@
 																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
 																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Maria Johnson</h5>
-																		<span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
@@ -407,7 +407,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -430,7 +430,7 @@
 																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
 																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Anna Ruiz</h5>
-																		<span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
@@ -446,7 +446,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -469,7 +469,7 @@
 																	<img src="assets/images/client-01.jpg" alt="" class="me-2 h-8 inline-block">
 																	<div class="self-center">                                                                        
 																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Lisa Henriquez</h5>
-																		<span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
@@ -485,7 +485,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 font-semibold text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -500,7 +500,7 @@
 									</div>
 									<div class="flex justify-between mt-4">
 										<div class="self-center">
-											<p class="dark:text-slate-400">Showing 1 - 20 of 1,524</p>
+											<p class="dark:text-slate-400">Strana 1 - 20 of 1,524</p>
 										</div>
 										<div class="self-center">
 											<ul class="inline-flex items-center -space-x-px">
