@@ -62,3 +62,11 @@
 	scrollbar-color: #313131 #8f8f8f;
 	scrollbar-width: thin;
 }
+
+.selectr-selected,
+.selectr-options-container {
+	background-color: #eef0fc !important;
+}
+.selectr-selected {
+	border: 1px solid rgba(185, 185, 185, 0.6) !important;
+}

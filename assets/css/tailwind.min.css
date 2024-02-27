@@ -6348,7 +6348,7 @@ input.success {
 }
 .flatpickr-day.today {
 	--tw-text-opacity: 1;
-	color: rgb(255 255 255 / var(--tw-text-opacity));
+	/* color: rgb(255 255 255 / var(--tw-text-opacity)); */
 }
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
@@ -16559,4 +16559,3 @@ body[data-sidebar-size="collapsed"] .main-sidebar {
 		margin-right: 1.5rem !important;
 	}
 }
-/*# sourceMappingURL=tailwind.min.css.map */

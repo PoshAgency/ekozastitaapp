@@ -547,7 +547,7 @@
                 <button type="button" class="box-content w-4 h-4 p-1 bg-slate-700/60 rounded-full text-slate-300 leading-4 text-xl close" aria-label="Close"  data-fc-dismiss>&times;</button>
             </div>
             <div class="relative flex-auto p-4 text-slate-600 dark:text-gray-300 leading-relaxed">
-                <p class="font-semibold text-base">Da li ste sigurni da želite da obrišete ovog klijenta?</p>
+                <p class="font-semibold text-base">Da li ste sigurni da želite da obrišete?</p>
                 <!-- <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, pariatur.</p>                     -->
             </div>
             <div class="flex flex-wrap shrink-0 justify-end p-3 rounded-b border-t border-dashed dark:border-gray-700">
