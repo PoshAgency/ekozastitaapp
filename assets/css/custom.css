@@ -62,9 +62,12 @@
 	scrollbar-color: #313131 #8f8f8f;
 	scrollbar-width: thin;
 }
-
-.selectr-selected,
-.selectr-options-container {
+.select-bg-gray .selectr-selected,
+.select-bg-gray .selectr-options-container {
+	background-color: #f9fafb !important;
+}
+.select-bg-transparent .selectr-selected,
+.select-bg-transparent .selectr-options-container {
 	background-color: #eef0fc !important;
 }
 .selectr-selected {

@@ -56,11 +56,11 @@
 						<form action="javascript:;" class="flex-auto p-0 md:p-4">
 							<div class="mb-2">
 								<label for="fullname" class="font-medium text-sm text-slate-600 dark:text-slate-400">Ime korisnika</label>
-								<input type="text" id="fullname" name="fullname" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="name@t-wind.com" required>
+								<input type="text" id="fullname" name="fullname" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Ime korisnika" required>
 							</div>
 							<div class="mb-2">
 								<label for="email" class="font-medium text-sm text-slate-600 dark:text-slate-400">Email</label>
-								<input type="email" id="email" name="email" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="name@t-wind.com" required>
+								<input type="email" id="email" name="email" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="name@example.com" required>
 							</div>
 							<div class="mb-2">
 								<label for="password" class="font-medium text-sm text-slate-600 dark:text-slate-400">Šifra</label>

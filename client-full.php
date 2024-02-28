@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 <?php include('templates/head.php'); ?>
-
+<link rel="stylesheet" href="assets/libs/mobius1-selectr/selectr.min.css">
 </head>
 
 <body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="client-full-page bg-[#EEF0FC] dark:bg-gray-900">
@@ -653,6 +653,33 @@
 									</div>
 								</div>
 								<div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="wishlist" role="tabpanel" aria-labelledby="wishlist-tab">
+									<div class="flex flex-wrap gap-4 mb-3">
+										<div class="mb-2 w-44 select-bg-gray">  
+											<select id="default" class="form-input w-full rounded-md border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
+												<option>Objekti</option>
+												<option>Smederevo</option>
+												<option>Beograd</option>
+												<option>Požarevac</option>
+											</select>
+										</div>
+										<div class="mb-2 w-44">                                           
+											<select id="Category" class="w-full rounded-md border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
+												<option  class="dark:text-slate-700">Tip naloga</option>
+                                                <option  class="dark:text-slate-700">redovni</option>
+                                                <option  class="dark:text-slate-700">vanredni</option>
+                                            </select> 
+                                        </div>
+                                        <div class="mb-2 w-36">
+											<select id="Vendor" class="w-full rounded-md border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
+                                                <option  class="dark:text-slate-700">Operativac</option>
+                                                <option  class="dark:text-slate-700">Marko Marković</option>
+                                                <option  class="dark:text-slate-700">Dragan Draganovoić</option>
+                                            </select> 
+                                        </div>
+										<div class="mb-2"> 
+											<input id="date" name="date" class="flatpickr form-input w-full rounded-md border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" type="text" placeholder="Select Date.." readonly="readonly">
+										</div>
+                                    </div>
 									<div class="grid grid-cols-1 p-0 md:p-4">
 										<div class="sm:-mx-6 lg:-mx-8">
 											<div class="relative overflow-x-auto block w-full sm:px-6 lg:px-8">
@@ -671,6 +698,9 @@
 																Broj naloga
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
+																Objekat
+															</th>
+															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
 																Tip naloga
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
@@ -678,9 +708,6 @@
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
 																Datum
-															</th>
-															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Prioritet
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
 																Akcija
@@ -708,6 +735,9 @@
 																</div>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Smederevo
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																redovni
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -716,9 +746,6 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>                                                                    
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																da
-															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
 																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
@@ -744,6 +771,9 @@
 															</div>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Beograd
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																vanredni
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -751,9 +781,6 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																ne
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
@@ -780,6 +807,9 @@
 																</div>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Smederevo
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																redovni
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -787,9 +817,6 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																ne
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
@@ -816,6 +843,9 @@
 																</div>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Beograd
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																redovni
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -823,9 +853,6 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																ne
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
@@ -852,6 +879,9 @@
 																</div>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Smederevo
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																redovni
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -859,9 +889,6 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																ne
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
@@ -888,6 +915,9 @@
 																</div>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Beograd
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																redovni
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -895,9 +925,6 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																ne
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
@@ -924,6 +951,9 @@
 																</div>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Smederevo
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																redovni
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -931,9 +961,6 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																ne
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
@@ -960,6 +987,9 @@
 																</div>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Smederevo
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																redovni
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -967,9 +997,6 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																ne
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
@@ -996,6 +1023,9 @@
 																</div>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Smederevo
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																redovni
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -1003,9 +1033,6 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																ne
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
@@ -1032,6 +1059,9 @@
 																</div>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+																Smederevo
+															</td>
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																vanredni
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -1039,9 +1069,6 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																ne
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
@@ -1449,8 +1476,17 @@
 <script src="assets/libs/lucide/umd/lucide.min.js"></script>
 <script src="assets/libs/simplebar/simplebar.min.js"></script>
 <script src="assets/libs/flatpickr/flatpickr.min.js"></script>
-<script src="assets/libs/@frostui/tailwindcss/frostui.js"></script>
+<script>
+flatpickr(".flatpickr", {
+    mode: "range",
+    minDate: "today",
+    dateFormat: "d.m.Y.",
+});
+</script>
 
+<script src="assets/libs/@frostui/tailwindcss/frostui.js"></script>
+<script src="assets/libs/mobius1-selectr/selectr.min.js"></script>
+<script src="assets/js/pages/form-advanced.init.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
