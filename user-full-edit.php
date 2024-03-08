@@ -7,6 +7,7 @@
 
 <?php include('templates/head.php'); ?>
 
+<link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
 <body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="user-full-edit-page bg-[#EEF0FC] dark:bg-gray-900">
@@ -29,10 +30,6 @@
 									<li>
 										<a href="#" class="text-gray-500 dark:text-slate-400">Ekozaštita</a>
 									</li>
-									<li>
-										<span class="text-gray-500 dark:text-slate-400 mx-2">/</span>
-									</li>
-									<li class="text-gray-500 dark:text-slate-400">Stranice</li>
 									<li>
 										<span class="text-gray-500 dark:text-slate-400 mx-2">/</span>
 									</li>
@@ -66,7 +63,7 @@
 								<label for="password" class="font-medium text-sm text-slate-600 dark:text-slate-400">Šifra</label>
 								<input type="password" id="password" name="password" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" required>
 							</div>	
-							<div class="mb-2">
+							<div class="mb-10">
 								<label for="repeat-password" class="font-medium text-sm text-slate-600 dark:text-slate-400">Ponovi šifru</label>
 								<input type="repeat-password" id="repeat-password" name="repeat-password" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" required>
 							</div>							

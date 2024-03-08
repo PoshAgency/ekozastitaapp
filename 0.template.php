@@ -7,6 +7,7 @@
 
 <?php include('templates/head.php'); ?>
 
+<link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
 <body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="template-page bg-[#EEF0FC] dark:bg-gray-900">
@@ -19,7 +20,7 @@
 <div class="page-container ltr:flex flex-1 rtl:flex-row-reverse">
 	<div class="page-wrapper relative ltr:ml-auto rtl:mr-auto rtl:ml-0 w-[calc(100%-260px)] px-4 pt-[64px] duration-300">
 		<div class="breadcrumbs-container xl:w-full">
-			<div class="flex flex-wrap">
+			<div class="flex flex-wrap">	
 				<div class="flex items-center py-4 w-full">
 					<div class="w-full">
 						<div class="flex flex-wrap justify-between">
@@ -29,10 +30,6 @@
 									<li>
 										<a href="#" class="text-gray-500 dark:text-slate-400">Ekozaštita</a>
 									</li>
-									<li>
-										<span class="text-gray-500 dark:text-slate-400 mx-2">/</span>
-									</li>
-									<li class="text-gray-500 dark:text-slate-400">Stranice</li>
 									<li>
 										<span class="text-gray-500 dark:text-slate-400 mx-2">/</span>
 									</li>

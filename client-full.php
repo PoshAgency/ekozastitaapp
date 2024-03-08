@@ -6,7 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 <?php include('templates/head.php'); ?>
+
 <link rel="stylesheet" href="assets/libs/mobius1-selectr/selectr.min.css">
+<link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
 <body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="client-full-page bg-[#EEF0FC] dark:bg-gray-900">

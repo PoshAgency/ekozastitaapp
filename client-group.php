@@ -7,6 +7,7 @@
 
 <?php include('templates/head.php'); ?>
 
+<link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
 <body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="client-group-page bg-[#EEF0FC] dark:bg-gray-900">

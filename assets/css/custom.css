@@ -73,3 +73,14 @@
 .selectr-selected {
 	border: 1px solid rgba(185, 185, 185, 0.6) !important;
 }
+.filepond--panel-root {
+	border-radius: 0.5em;
+	background-color: #eef0fc;
+}
+input[type="checkbox"] {
+	width: 25px;
+	height: 25px;
+}
+.navbar-nav .nav .nav-item .nav-link.active i {
+	color: #000 !important;
+}

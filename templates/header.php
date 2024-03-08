@@ -16,7 +16,7 @@
 		</div> -->
 
 		<div class="order-1 ltr:ms-auto rtl:ms-0 rtl:me-auto flex items-center md:order-2">
-			<div class="ltr:me-2 ltr:md:me-4 rtl:me-0 rtl:ms-2 rtl:lg:me-0 rtl:md:ms-4 dropdown relative">
+			<!-- <div class="ltr:me-2 ltr:md:me-4 rtl:me-0 rtl:ms-2 rtl:lg:me-0 rtl:md:ms-4 dropdown relative">
 				<button type="button" class="dropdown-toggle flex rounded-full md:me-0" aria-expanded="false" data-fc-autoclose="both" data-fc-type="dropdown">
 					<span data-lucide="search" class="top-icon w-5 h-5"></span>
 				</button>
@@ -28,7 +28,7 @@
 						<input type="text" id="email-adress-icon" class="block w-full rounded-lg border border-slate-200 dark:border-slate-700/60 bg-slate-200/10 p-1.5 pl-10 text-slate-600 dark:text-slate-400 outline-none focus:border-slate-300 focus:ring-slate-300 dark:bg-slate-800/20 sm:text-sm" placeholder="Pretraži..." />
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="ltr:me-2 ltr:md:me-4 rtl:me-0 rtl:ms-2 rtl:lg:me-0 rtl:md:ms-4">
 				<button id="toggle-theme" class="flex rounded-full md:me-0 relative">
 					<span data-lucide="moon" class="top-icon w-5 h-5 light"></span>
@@ -168,18 +168,18 @@
 								Profil
 							</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="#" class="flex items-center py-2 px-3 text-sm text-gray-700 hover:bg-gray-50 dark:text-gray-200 dark:hover:bg-gray-900/20 dark:hover:text-white">
 								<span data-lucide="settings" class="w-4 h-4 inline-block text-slate-800 dark:text-slate-400 me-2"></span>
 								Podešavanja
 							</a>
-						</li>
-						<li>
+						</li> -->
+						<!-- <li>
 							<a href="#" class="flex items-center py-2 px-3 text-sm text-gray-700 hover:bg-gray-50 dark:text-gray-200 dark:hover:bg-gray-900/20 dark:hover:text-white">
 								<span data-lucide="message-square" class="w-4 h-4 inline-block text-slate-800 dark:text-slate-400 me-2"></span>
 								Poruke
 							</a>
-						</li>
+						</li> -->
 						<li>
 							<a href="auth-lockscreen.html" class="flex items-center py-2 px-3 text-sm text-red-500 hover:bg-gray-50 hover:text-red-600 dark:text-red-500 dark:hover:bg-gray-900/20 dark:hover:text-red-500">
 								<span data-lucide="power" class="w-4 h-4 inline-block text-red-500 dark:text-red-500 me-2"></span>

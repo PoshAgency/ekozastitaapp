@@ -7,6 +7,7 @@
 
 <?php include('templates/head.php'); ?>
 
+<link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
 <body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="location-category-page bg-[#EEF0FC] dark:bg-gray-900">
@@ -29,10 +30,6 @@
 									<li>
 										<a href="#" class="text-gray-500 dark:text-slate-400">Ekozaštita</a>
 									</li>
-									<li>
-										<span class="text-gray-500 dark:text-slate-400 mx-2">/</span>
-									</li>
-									<li class="text-gray-500 dark:text-slate-400">Stranice</li>
 									<li>
 										<span class="text-gray-500 dark:text-slate-400 mx-2">/</span>
 									</li>

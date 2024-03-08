@@ -13,7 +13,7 @@
 <!-- Slack -->
 <meta name="google-site-verification" content="" />
 <!-- facebook -->
-<meta name="site_name" property="og:site_name" content="Ekozaštita">
+<meta name="site_name" property="og:site_name" content="Ekozaštita Webapp">
 <meta name="locale" property="og:locale" content="en_US">
 <meta name="type" property="og:type" content="article">
 <meta name="description" property="og:description" content="">
@@ -39,7 +39,6 @@
 <link rel="stylesheet" href="assets/libs/icofont/icofont.min.css" />
 <link rel="stylesheet" href="assets/libs/flatpickr/flatpickr.min.css" type="text/css"  />
 <link rel="stylesheet" href="assets/css/tailwind.min.css" />
-<link rel="stylesheet" href="assets/css/custom.css" />
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap" rel="stylesheet">
 <!--[if lt IE 9]>

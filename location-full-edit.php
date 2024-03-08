@@ -5,12 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
+<?php include('templates/head.php'); ?>
+
 <link rel="stylesheet" href="assets/libs/filepond/filepond.min.css">
 <link rel="stylesheet" href="assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css">
 <link rel="stylesheet" href="assets/libs/vanillajs-datepicker/css/datepicker.min.css">
 <link rel="stylesheet" href="assets/libs/mobius1-selectr/selectr.min.css">
-
-<?php include('templates/head.php'); ?>
+<link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
 <body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="location-full-edit-page bg-[#EEF0FC] dark:bg-gray-900">
@@ -101,7 +102,7 @@
 								<label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Kontakt osoba</label>
 								<input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
 							</div>
-							<div class="mb-2">
+							<div class="mb-10">
 								<label for="note" class="font-medium text-sm text-slate-600 dark:text-slate-400">Napomena</label>
 								<textarea id="note" name="note" rows="3" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Napomena ..."></textarea>
 							</div>							
