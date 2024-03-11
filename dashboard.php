@@ -25,7 +25,7 @@
 					<div class="w-full">
 						<div class="flex flex-wrap justify-between">
 							<div class="items-center">
-								<h1 class="font-medium text-3xl block dark:text-slate-100">Kontrolna tabla</h1>
+								<h1 class="font-medium text-3xl block dark:text-slate-100">Kontrolna tabla - Zeljko</h1>
 								<ol class="list-reset flex text-sm">
 									<li>
 										<a href="#" class="text-gray-500 dark:text-slate-400">Ekozaštita</a>
