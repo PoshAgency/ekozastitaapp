@@ -84,3 +84,33 @@ input[type="checkbox"] {
 .navbar-nav .nav .nav-item .nav-link.active i {
 	color: #000 !important;
 }
+[role="tab"].active,
+[role="tab"].active:hover {
+	color: var(--main-color) !important;
+	border-color: var(--main-color) !important;
+}
+.text-primary-500 {
+	color: rgb(17 156 73 / var(--tw-text-opacity)) !important;
+}
+.bg-slate-800 {
+	background-color: rgb(17 156 73 / var(--tw-bg-opacity)) !important;
+}
+.border-primary-500\/60 {
+	border-color: rgb(17 156 73 / 0.6) !important;
+}
+.hover\:bg-primary-500:hover {
+	--tw-bg-opacity: 1 !important;
+	background-color: rgb(17 156 73 / var(--tw-bg-opacity)) !important;
+}
+.bg-primary-500\/10 {
+	background-color: rgb(17 156 73 / 0.1) !important;
+}
+.text-primary {
+	color: rgb(17 156 73 / var(--tw-text-opacity)) !important;
+}
+:is(.dark .dark\:text-primary-400) {
+	color: rgb(17 156 73 / var(--tw-text-opacity)) !important;
+}
+.bg-primary {
+	background-color: rgb(17 156 73 / var(--tw-bg-opacity)) !important;
+}
