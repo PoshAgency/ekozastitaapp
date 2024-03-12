@@ -135,12 +135,12 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="client-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 2 -->
@@ -174,12 +174,12 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="client-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 3 -->
@@ -213,12 +213,12 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="client-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 4 -->
@@ -252,12 +252,12 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="client-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--5-->
@@ -291,12 +291,12 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="client-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--6-->
@@ -330,12 +330,12 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="client-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--7-->
@@ -369,12 +369,12 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="client-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--8-->
@@ -408,12 +408,12 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="client-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--9-->
@@ -447,12 +447,12 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="client-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--10-->
@@ -486,12 +486,12 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-lg text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="client-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="client-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 													</tbody>

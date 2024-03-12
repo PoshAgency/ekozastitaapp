@@ -293,8 +293,8 @@
 																892
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="location-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="location-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 2 -->
@@ -329,8 +329,8 @@
 																892
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="location-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="location-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 3 -->
@@ -365,8 +365,8 @@
 																892
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="location-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="location-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 4 -->
@@ -401,8 +401,8 @@
 																892
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="location-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="location-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--5-->
@@ -437,8 +437,8 @@
 																892
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="location-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="location-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--6-->
@@ -473,8 +473,8 @@
 																892
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="location-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="location-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--7-->
@@ -509,8 +509,8 @@
 																892
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="location-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="location-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--8-->
@@ -545,8 +545,8 @@
 																892
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="location-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="location-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--9-->
@@ -581,8 +581,8 @@
 																892
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="location-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="location-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--10-->
@@ -616,8 +616,8 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																892
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="location-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="location-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 													</tbody>
@@ -749,8 +749,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>                                                                    
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="work-order-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 2 -->
@@ -785,8 +785,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="work-order-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 3 -->
@@ -821,8 +821,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="work-order-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 4 -->
@@ -857,8 +857,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="work-order-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--5-->
@@ -893,8 +893,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="work-order-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--6-->
@@ -929,8 +929,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="work-order-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--7-->
@@ -965,8 +965,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="work-order-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--8-->
@@ -1001,8 +1001,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="work-order-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--9-->
@@ -1037,8 +1037,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="work-order-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--10-->
@@ -1073,8 +1073,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">23.02.2024.</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="work-order-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="work-order-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 													</tbody>
@@ -1161,8 +1161,8 @@
 																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="user-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="user-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 2 -->
@@ -1188,8 +1188,8 @@
 																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="user-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="user-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 3 -->
@@ -1215,8 +1215,8 @@
 																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="user-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="user-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 4 -->
@@ -1242,8 +1242,8 @@
 																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="user-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="user-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--5-->
@@ -1269,8 +1269,8 @@
 																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="user-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="user-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--6-->
@@ -1296,8 +1296,8 @@
 																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="user-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="user-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--7-->
@@ -1323,8 +1323,8 @@
 																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="user-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="user-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--8-->
@@ -1350,8 +1350,8 @@
 																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="user-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="user-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--9-->
@@ -1377,8 +1377,8 @@
 																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="user-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="user-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--10-->
@@ -1404,8 +1404,8 @@
 																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="user-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="user-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 													</tbody>

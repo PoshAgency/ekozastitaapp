@@ -76,13 +76,28 @@
 								<label for="repeat-password" class="font-medium text-sm text-slate-600 dark:text-slate-400">Ponovi šifru</label>
 								<input type="repeat-password" id="repeat-password" name="repeat-password" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" required>
 							</div>							
-							<div class="">
+							<div class="mb-10">
 								<button class="px-2 py-2 lg:px-4 bg-brand  text-white text-sm  rounded hover:bg-brand-600 border border-brand-500">Snimi</button>
 								<!-- <button class="px-2 py-2 lg:px-4 bg-transparent  text-brand text-sm  rounded transition hover:bg-brand-500 hover:text-white border border-brand font-medium">Save Product</button> -->
 							</div>
+							
 						</form>
 					</div>                             
-				</div>			                     
+				</div>	
+				<div class="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-6 xl:col-span-6">
+					<div class="mb-5">
+						<h4 class="text-base font-medium text-slate-900 dark:text-slate-300">Super admin</h4>
+						<p class="text-slate-600 text-base dark:text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempora sed rerum esse doloremque labore provident ea laborum ipsum sint.</p>
+					</div>
+					<div class="mb-5">
+						<h4 class="text-base font-medium text-slate-900 dark:text-slate-300">Admin</h4>
+						<p class="text-slate-600 text-base dark:text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempora sed rerum esse doloremque labore provident ea laborum ipsum sint.</p>
+					</div>
+					<div class="mb-5">
+						<h4 class="text-base font-medium text-slate-900 dark:text-slate-300">Operator</h4>
+						<p class="text-slate-600 text-base dark:text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate tempora sed rerum esse doloremque labore provident ea laborum ipsum sint.</p>
+					</div>
+				</div>	                     
 			</div>
 
 			<!-- footer -->

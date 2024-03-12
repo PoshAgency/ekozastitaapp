@@ -124,8 +124,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">super admin</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="administrator-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="administrator-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 2 -->
@@ -153,8 +153,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">admin</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="administrator-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="administrator-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 3 -->
@@ -182,8 +182,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">operater</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="administrator-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="administrator-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!-- 4 -->
@@ -211,8 +211,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">operater</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="administrator-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="administrator-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--5-->
@@ -240,8 +240,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">operater</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="administrator-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="administrator-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--6-->
@@ -269,8 +269,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">operater</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="administrator-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="administrator-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--7-->
@@ -298,8 +298,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">operater</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="administrator-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="administrator-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--8-->
@@ -327,8 +327,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">operater</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="administrator-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="administrator-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--9-->
@@ -356,8 +356,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">operater</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="administrator-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="administrator-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 														<!--10-->
@@ -385,8 +385,8 @@
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">operater</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="administrator-full-edit.php"><i class="icofont-ui-edit text-lg text-gray-500 dark:text-gray-400"></i></a>
-																<a href="javascript:;"><i class="icofont-ui-delete text-lg text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
+																<a class="mr-3" href="administrator-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
 													</tbody>
