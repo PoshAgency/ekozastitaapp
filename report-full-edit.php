@@ -363,47 +363,62 @@
                                                     <p class="text-slate-400 mb-1">There are many variations of passages of Lorem Ipsum available, 
                                                         but the majority have suffered alteration in some form.
                                                     </p>
-                                                    <div class="my-3">
-                                                        <div class="flex justify-between mb-1">
-                                                            <span class="text-sm font-medium text-slate-700 dark:text-white">T-Wind</span>
-                                                            <span class="text-sm font-medium text-slate-700 dark:text-white">45% Complete</span>
-                                                        </div>
-                                                        <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                                                            <div class="bg-blue-500 h-1 rounded-full" style="width: 45%"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="flex justify-between">
-                                                        <div class="flex -space-x-4">
-                                                            <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="assets/images/users/avatar-3.png" alt="">
-                                                            <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="assets/images/users/avatar-5.png" alt="">
-                                                            <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="assets/images/users/avatar-7.png" alt="">
-                                                            <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+9</a>
-                                                        </div> 
-                                                        <ul class="mb-0 self-center">                                                                    
-                                                            <li class="inline-block mr-2">
-                                                                <a class="" href="#">
-                                                                    <i class="mdi mdi-format-list-bulleted text-green-500 text-base"></i>
-                                                                    <span class="text-slate-400 font-medium">15/100</span>
-                                                                </a>
-                                                            </li>
-                                                            <li class="inline-block">
-                                                                <a class="" href="#">
-                                                                    <i class="mdi mdi-comment-outline text-primary text-base"></i>
-                                                                    <span class="text-slate-400 font-medium">3</span>
-                                                                </a>                                                                               
-                                                            </li>
-                                                            <li class="inline-block">
-                                                                <a class="ml-2" href="#">
-                                                                    <i class="mdi mdi-pencil-outline text-slate-400 font-18"></i>
-                                                                </a>                                                                               
-                                                            </li>
-                                                            <li class="inline-block">
-                                                                <a class="" href="#">
-                                                                    <i class="mdi mdi-trash-can-outline text-slate-400 font-18"></i>
-                                                                </a>                                                                               
-                                                            </li>
-                                                        </ul>
-                                                    </div> 
+                                                    <form> 
+                                                        <div class="grid md:grid-cols-12 lg:grid-cols-12">
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="First_Name" class="font-medium text-sm text-slate-600 dark:text-slate-400">First Name</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9 mb-2">
+                                                                <input type="text" id="First_Name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" value="Rosa" placeholder="First name" required>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="Last_Name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Last Name</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <input type="text" id="Last_Name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" value="Dodson" placeholder="Last name" required>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="Company_Name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Company Name</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <input type="text" id="Company_Name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" value="Example Themes" placeholder="Last name" required>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Contact Phone</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <input type="text" id="Contact_Phone" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" value="+1 23456 7890" placeholder="Last name" required>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="Your_Email" class="font-medium text-sm text-slate-600 dark:text-slate-400">Your email</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <input type="email" id="Your_Email" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" value="example@example.com" placeholder="Last name" required>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Website Link</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <input type="text" id="Contact_Phone" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" value="https://mannatthemes.com/" placeholder="Last name" required>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="countries" class="font-medium text-sm text-slate-600 dark:text-slate-400">Ocena</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <select id="countries" class=" w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-[6.5px] focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
+                                                                    <option>United States</option>
+                                                                    <option>Canada</option>
+                                                                    <option>France</option>
+                                                                    <option>Germany</option>
+                                                                </select>
+                                                            </div><!--end col-->
+                                                            <div class=" col-start-4 col-end-13  mb-2">
+                                                                <button type="submit" class="inline-block focus:outline-none text-primary-500 hover:bg-primary-500 hover:text-white bg-transparent border border-gray-200 dark:bg-transparent dark:text-primary-500 dark:hover:text-white dark:border-gray-700 dark:hover:bg-primary-500  text-sm font-medium py-1 px-3 rounded">Submit</button>
+                                                                <button type="submit" class="inline-block focus:outline-none text-red-500 hover:bg-red-500 hover:text-white bg-transparent border border-gray-200 dark:bg-transparent dark:text-red-500 dark:hover:text-white dark:border-gray-700 dark:hover:bg-red-500  text-sm font-medium py-1 px-3 rounded">Cancel</button>
+                                                            </div><!--end col-->
+                                                        </div><!--end grid-->
+                                                    </form>
+                                                     
                                                 </div><!--end card-body-->
                                             </div><!--end card--> 
                                         </div><!--end col-->
@@ -525,283 +540,108 @@
                                         </div><!--end col-->
                                         <div class="col-span-12 md:col-span-12 lg:col-span-12 xl:col-span-12">
                                             <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative">
-                                                <div class="flex-auto p-4">                                    
-                                                    <div class="absolute -top-2 -left-0"><i class="fas fa-circle text-red-500 text-xs"></i></div>
-                                                    <p class="text-slate-400 text-sm float-right">
-                                                        <span class="text-slate-400">01:33</span> / 
-                                                        <span class="text-slate-400">9:30</span> 
-                                                        <span class="mx-1">·</span> 
-                                                        <span><i class="far fa-fw fa-clock"></i> June 06</span>
-                                                    </p>
-                                                    <h5 class="font-medium mt-0 dark:text-slate-200">Book My World</h5>
-                                                    <p class="text-slate-400 mb-1">There are many variations of passages of Lorem Ipsum available, 
-                                                        but the majority have suffered alteration in some form.
-                                                    </p>
-                                                    <div class="my-3">
-                                                        <div class="flex justify-between mb-1">
-                                                            <span class="text-sm font-medium text-slate-700 dark:text-white">T-Wind</span>
-                                                            <span class="text-sm font-medium text-slate-700 dark:text-white">45% Complete</span>
+                                                                    <div class="flex items-center space-x-2 w-full">                                                    
+                                                    <form class="w-full"> 
+                                                        <div class="grid md:grid-cols-12 lg:grid-cols-12">
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="countries" class="font-medium text-sm text-slate-600 dark:text-slate-400">Ocena</label>
+                                                            </div>
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <select id="countries" class=" w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-[6.5px] focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Komentar</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <textarea id="message" rows="2" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Write a comment and press enter"></textarea>
+                                                            </div><!--end col-->
+                                                             <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Fotografija</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <div class="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-6 xl:col-span-4">
+                                                                    <div class="w-full relative p-4"> 
+                                                                        <div class="w-full h-56 mx-auto mb-4">
+                                                                            <input type="file" class="filepond h-56" name="filepond" accept="image/png, image/jpeg, image/gif" />                                    
+                                                                        </div>
+                                                                        <div id="uploads-container" class="grid grid-cols-2 gap-2">
+                                                                            <input type="file" class="filepond"/>
+                                                                            <input type="file" class="filepond"/>
+                                                                        </div>
+                                                                        <div class="btn-holder col-span-12 text-center mt-5">
+                                                                            <button id="add-more-uploads" type="button" class="px-2 py-1 lg:px-4 bg-primary text-white text-sm  rounded-full transition hover:bg-primary-600 border border-primary font-medium">Dodaj još fotografija</button>
+                                                                        </div>
+                                                                    </div>                               
+                                                                </div>
+                                                            </div>                                                            
+                                                            <div class=" col-start-4 col-end-13  mb-2">
+                                                                <button type="submit" class="inline-block focus:outline-none text-primary-500 hover:bg-primary-500 hover:text-white bg-transparent border border-gray-200 dark:bg-transparent dark:text-primary-500 dark:hover:text-white dark:border-gray-700 dark:hover:bg-primary-500  text-sm font-medium py-1 px-3 rounded">Snimi</button>
+                                                            </div>
                                                         </div>
-                                                        <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                                                            <div class="bg-blue-500 h-1 rounded-full" style="width: 45%"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="flex justify-between">
-                                                        <div class="flex -space-x-4">
-                                                            <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="assets/images/users/avatar-2.png" alt="">
-                                                            <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="assets/images/users/avatar-8.png" alt="">
-                                                            <img class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800" src="assets/images/users/avatar-9.png" alt="">
-                                                            <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">+9</a>
-                                                        </div> 
-                                                        <ul class="mb-0 self-center">                                                                    
-                                                            <li class="inline-block mr-2">
-                                                                <a class="" href="#">
-                                                                    <i class="mdi mdi-format-list-bulleted text-green-500 text-base"></i>
-                                                                    <span class="text-slate-400 font-medium">15/100</span>
-                                                                </a>
-                                                            </li>
-                                                            <li class="inline-block">
-                                                                <a class="" href="#">
-                                                                    <i class="mdi mdi-comment-outline text-primary text-base"></i>
-                                                                    <span class="text-slate-400 font-medium">3</span>
-                                                                </a>                                                                               
-                                                            </li>
-                                                            <li class="inline-block">
-                                                                <a class="ml-2" href="#">
-                                                                    <i class="mdi mdi-pencil-outline text-slate-400 font-18"></i>
-                                                                </a>                                                                               
-                                                            </li>
-                                                            <li class="inline-block">
-                                                                <a class="" href="#">
-                                                                    <i class="mdi mdi-trash-can-outline text-slate-400 font-18"></i>
-                                                                </a>                                                                               
-                                                            </li>
-                                                        </ul>
-                                                    </div> 
-                                                </div><!--end card-body-->
-                                            </div><!--end card--> 
-                                        </div><!--end col-->                                                
-                                    </div><!--end grid--> 
-                                </div><!--end tab-pan-->
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>                                              
+                                    </div> 
+                                </div>
                                 <div class="active" id="tab-3" role="tabpanel" aria-labelledby="dezinskecija-tab">
                                     <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
                                         <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                                            <div class="flex sm:items-center justify-between ">
-                                                <div class="relative flex items-center space-x-2">
-                                                    <div class="relative">
-                                                        <span class="absolute text-green-500 right-0 bottom-0">
-                                                            <svg width="10" height="10">
-                                                                <circle cx="4" cy="4" r="4" fill="currentColor"></circle>
-                                                            </svg>
-                                                        </span>
-                                                        <img src="assets/images/users/avatar-3.png" alt="" class="w-8 h-8  rounded-full">
-                                                    </div>
-                                                    <div class="flex flex-col">
-                                                        <div class="text-sm mt-1 flex items-center font-medium">
-                                                            <span class="text-gray-700 mr-3 dark:text-slate-200">Anderson Vanhron</span>
+                                            <div class="flex sm:items-center justify-between">
+                                                <div class="flex items-center space-x-2 w-full">                                                    
+                                                    <form class="w-full"> 
+                                                        <div class="grid md:grid-cols-12 lg:grid-cols-12">
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="countries" class="font-medium text-sm text-slate-600 dark:text-slate-400">Ocena</label>
+                                                            </div>
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <select id="countries" class=" w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-[6.5px] focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Komentar</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <textarea id="message" rows="2" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Write a comment and press enter"></textarea>
+                                                            </div><!--end col-->
+                                                             <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Fotografija</label>
+                                                            </div><!--end col-->
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <div class="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-6 xl:col-span-4">
+                                                                    <div class="w-full relative p-4"> 
+                                                                        <div class="w-full h-56 mx-auto mb-4">
+                                                                            <input type="file" class="filepond h-56" name="filepond" accept="image/png, image/jpeg, image/gif" />                                    
+                                                                        </div>
+                                                                        <div id="uploads-container" class="grid grid-cols-2 gap-2">
+                                                                            <input type="file" class="filepond"/>
+                                                                            <input type="file" class="filepond"/>
+                                                                        </div>
+                                                                        <div class="btn-holder col-span-12 text-center mt-5">
+                                                                            <button id="add-more-uploads" type="button" class="px-2 py-1 lg:px-4 bg-primary text-white text-sm  rounded-full transition hover:bg-primary-600 border border-primary font-medium">Dodaj još fotografija</button>
+                                                                        </div>
+                                                                    </div>                               
+                                                                </div>
+                                                            </div>                                                            
+                                                            <div class=" col-start-4 col-end-13  mb-2">
+                                                                <button type="submit" class="inline-block focus:outline-none text-primary-500 hover:bg-primary-500 hover:text-white bg-transparent border border-gray-200 dark:bg-transparent dark:text-primary-500 dark:hover:text-white dark:border-gray-700 dark:hover:bg-primary-500  text-sm font-medium py-1 px-3 rounded">Snimi</button>
+                                                            </div>
                                                         </div>
-                                                        <span class="text-xs text-gray-500 -mt-1">online</span>
-                                                    </div>
-                                                </div>
-                                                <div class="flex items-center space-x-2">
-                                                    <button type="button" class="inline-flex items-center justify-center h-10 w-10 transition duration-500 ease-in-out text-gray-400 hover:text-gray-500 focus:outline-none">
-                                                    <i class="far fa-image"></i>
-                                                    </button>
-                                                    <button type="button" class="inline-flex items-center justify-center h-10 w-10 transition duration-500 ease-in-out text-gray-400 hover:text-gray-500 focus:outline-none">
-                                                        <i class="fas fa-video"></i>
-                                                    </button>
-                                                    <button type="button" class="inline-flex items-center justify-center h-10 w-10 transition duration-500 ease-in-out text-gray-400 hover:text-gray-500 focus:outline-none">
-                                                        <i class="far fa-calendar"></i>
-                                                    </button>
-                                                    
-                                                    <div class="dropdown inline-block relative">
-                                                        <button data-dropdown-toggle="dropdown" class="dropdown-toggle px-3 py-1 text-sm font-medium text-gray-400 focus:outline-none hover:text-slate-800 focus:z-10 dark:text-gray-400 dark:hover:text-white" type="button">
-                                                            <i class="fas fa-ellipsis-vertical dark:text-slate-400"></i>
-                                                        </button>
-                                                        <!-- Dropdown menu -->
-                                                        <div class="dropdown-menu right-auto md:right-0 hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                                                            <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Profile</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Add to archive</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Delete</a>
-                                                                </li>   
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 text-red-500">Block</a>
-                                                                </li>                                                                 
-                                                            </ul>
-                                                        </div>
-                                                    </div>
+                                                    </form>
                                                 </div>
                                             </div>                                  
-                                        </div><!--end header-title-->
-                                        <div class="flex-auto p-4">
-                                            <form>
-                                                <textarea id="post-text" rows="4" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Start a post"></textarea>
-                                                <button type="submit" class="inline-block focus:outline-none text-primary-500 hover:bg-primary-500 hover:text-white bg-transparent border border-gray-200 dark:bg-transparent dark:text-primary-500 dark:hover:text-white dark:border-gray-700 dark:hover:bg-primary-500  text-sm font-medium py-1 px-3 rounded">Post</button>
-                                            </form>
-                                        </div> <!--end card-body-->
-                                    </div> <!--end card-->
-                                    <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
-                                        <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                                            <div class="flex sm:items-center justify-between ">
-                                                <div class="relative flex items-center space-x-2">
-                                                    <div class="relative">
-                                                        <img src="assets/images/users/avatar-3.png" alt="" class="w-8 h-8  rounded-full">
-                                                    </div>
-                                                    <div class="flex flex-col">
-                                                        <div class="text-[14px] mt-1 flex items-center font-medium">
-                                                            <a href="#" class="text-gray-700 mr-3 dark:text-slate-200 mb-1 hover:text-primary-400">Anderson Vanhron</a>
-                                                        </div>
-                                                        <span class="text-xs text-gray-500 -mt-1">Yesterday at 11.45 pm</span>
-                                                    </div>
-                                                </div>
-                                                <div class="flex items-center space-x-2">
-                                                    
-                                                    <div class="dropdown inline-block relative">
-                                                        <button data-dropdown-toggle="dropdown" class="dropdown-toggle px-3 py-1 text-sm font-medium text-gray-400 focus:outline-none hover:text-slate-800 focus:z-10 dark:text-gray-400 dark:hover:text-white" type="button">
-                                                            <i class="fas fa-ellipsis-vertical dark:text-slate-400"></i>
-                                                        </button>
-                                                        <!-- Dropdown menu -->
-                                                        <div class="dropdown-menu right-auto md:right-0 hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                                                            <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Profile</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Add to archive</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Delete</a>
-                                                                </li>   
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 text-red-500">Block</a>
-                                                                </li>                                                                 
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>                                  
-                                        </div><!--end header-title-->
-                                        <div class="flex-auto p-4">
-                                            <p class="text-sm text-slate-600 dark:text-slate-400 font-medium mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                            <img src="assets/images/widgets/post-2.jpg" alt="" class="mb-3">
-                                            <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                                                <button type="button" class="inline-flex items-center justify-center font-medium  transition duration-500 ease-in-out text-slate-400 hover:text-red-500 focus:outline-none">
-                                                    <i class="fas fa-heart text-2xl mr-1"></i> <span>4.5k</span>
-                                                </button>
-                                                <button type="button" class="inline-flex items-center justify-center font-medium  transition duration-500 ease-in-out text-slate-400 hover:text-primary-500 focus:outline-none ml-5">
-                                                    <i class="fas fa-comment text-2xl mr-1"></i> <span>291</span>
-                                                </button>
-                                                <button type="button" class="inline-flex items-center justify-center font-medium  transition duration-500 ease-in-out text-slate-400 hover:text-primary-500 focus:outline-none ml-5">
-                                                    <i class="fas fa-share-nodes text-2xl mr-1"></i> <span>Share</span>
-                                                </button>
-                                            </div>
-                                            <div class="flex mt-4">
-                                                <img src="assets/images/users/avatar-1.png" alt="" class="mr-2 h-8 inline-block rounded">
-                                                <div class="">
-                                                    <h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Donald Gardner</h5>
-                                                    <span class="block  font-normal text-slate-500">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</span>                                                            
-                                                </div>
-                                            </div>
-                                            <form action="" class="mt-4">
-                                                <textarea id="message" rows="2" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Write a comment and press enter"></textarea>
-                                            </form>
-                                        </div> <!--end card-body-->
-                                    </div> <!--end card-->
-
-                                    
-                                    <div class="bg-slate-800 dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
-                                        <div class="grid md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12">
-                                            <div class="sm:col-span-12  md:col-span-12 lg:col-span-4 xl:col-span-4 self-center">
-                                                <img src="assets/images/widgets/post-3.jpg" alt="" class="inline-block rounded-l-md">
-                                            </div>
-                                            <div class="sm:col-span-12  md:col-span-12 lg:col-span-8 xl:col-span-8 self-center">
-                                                <div class="flex-auto p-4">
-                                                    <a href="#" class="block mb-3 text-[16px] font-medium tracking-tight text-white dark:text-white">Popular admin template you can use for your business.</a>
-                                                    <p class="font-normal text-slate-300 text-sm dark:text-slate-400">
-                                                        Some quick example text the bulk of the card's content. It is a long   will be distracted by the readable content.
-                                                    </p>
-                                                </div><!--end card-body-->
-                                            </div>
-                                        </div> 
-                                        <div class="bg-white dark:bg-slate-800 p-4 cursor-pointer">
-                                            <span class="block text-slate-600 dark:text-slate-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                                            <a href="#" class="block text-primary-500">www.xyz.exemple.com</a>
-                                        </div>                               
-                                    </div>
-                                    <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
-                                        <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                                            <div class="flex sm:items-center justify-between ">
-                                                <div class="relative flex items-center space-x-2">
-                                                    <div class="relative">
-                                                        <img src="assets/images/users/avatar-3.png" alt="" class="w-8 h-8  rounded-full">
-                                                    </div>
-                                                    <div class="flex flex-col">
-                                                        <div class="text-[14px] mt-1 flex items-center font-medium">
-                                                            <a href="#" class="text-gray-700 mr-3 dark:text-slate-200 mb-1 hover:text-primary-400">Anderson Vanhron</a>
-                                                        </div>
-                                                        <span class="text-xs text-gray-500 -mt-1">Yesterday at 11.45 pm</span>
-                                                    </div>
-                                                </div>
-                                                <div class="flex items-center space-x-2">
-                                                    
-                                                    <div class="dropdown inline-block relative">
-                                                        <button data-dropdown-toggle="dropdown" class="dropdown-toggle px-3 py-1 text-sm font-medium text-gray-400 focus:outline-none hover:text-slate-800 focus:z-10 dark:text-gray-400 dark:hover:text-white" type="button">
-                                                            <i class="fas fa-ellipsis-vertical dark:text-slate-400"></i>
-                                                        </button>
-                                                        <!-- Dropdown menu -->
-                                                        <div class="dropdown-menu right-auto md:right-0 hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                                                            <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Profile</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Add to archive</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 dark:hover:text-white">Delete</a>
-                                                                </li>   
-                                                                <li>
-                                                                    <a href="#" class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-600 text-red-500">Block</a>
-                                                                </li>                                                                 
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>                                  
-                                        </div><!--end header-title-->
-                                        <div class="flex-auto p-4">
-                                            <p class="text-sm text-slate-600 dark:text-slate-400 font-medium mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                            <img src="assets/images/widgets/post-1.jpg" alt="" class="mb-3">
-                                            <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                                                <button type="button" class="inline-flex items-center justify-center font-medium  transition duration-500 ease-in-out text-slate-400 hover:text-red-500 focus:outline-none">
-                                                    <i class="fas fa-heart text-2xl mr-1"></i> <span>4.5k</span>
-                                                </button>
-                                                <button type="button" class="inline-flex items-center justify-center font-medium  transition duration-500 ease-in-out text-slate-400 hover:text-primary-500 focus:outline-none ml-5">
-                                                    <i class="fas fa-comment text-2xl mr-1"></i> <span>291</span>
-                                                </button>
-                                                <button type="button" class="inline-flex items-center justify-center font-medium  transition duration-500 ease-in-out text-slate-400 hover:text-primary-500 focus:outline-none ml-5">
-                                                    <i class="fas fa-share-nodes text-2xl mr-1"></i> <span>Share</span>
-                                                </button>
-                                            </div>
-                                            <div class="flex mt-4">
-                                                <img src="assets/images/users/avatar-5.png" alt="" class="mr-2 h-8 inline-block rounded">
-                                                <div class="">
-                                                    <h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Donald Gardner</h5>
-                                                    <span class="block  font-normal text-slate-500">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</span>                                                            
-                                                </div>
-                                            </div>
-                                            <form action="" class="mt-4">
-                                                <textarea id="message" rows="2" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Write a comment and press enter"></textarea>
-                                            </form>
-                                        </div> <!--end card-body-->
-                                    </div> <!--end card-->
-                                </div><!--end tab-pan-->
+                                        </div>
+                                    </div>                               
+                                </div>
                                 <div class="hidden" id="tab-4" role="tabpanel" aria-labelledby="ostale-usluge-tab">
                                     <div class="grid md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12 gap-4">
                                         <div class="col-span-12 md:col-span-12 lg:col-span-12 xl:col-span-12">
@@ -849,7 +689,7 @@
                                                                 <input type="text" id="Contact_Phone" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" value="https://mannatthemes.com/" placeholder="Last name" required>
                                                             </div><!--end col-->
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
-                                                                <label for="countries" class="font-medium text-sm text-slate-600 dark:text-slate-400">Countries</label>
+                                                                <label for="countries" class="font-medium text-sm text-slate-600 dark:text-slate-400">Ocena</label>
                                                             </div><!--end col-->
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
                                                                 <select id="countries" class=" w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-[6.5px] focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
@@ -975,7 +815,7 @@
                                                                 <input type="text" id="Contact_Phone" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" value="https://mannatthemes.com/" placeholder="Last name" required>
                                                             </div><!--end col-->
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
-                                                                <label for="countries" class="font-medium text-sm text-slate-600 dark:text-slate-400">Countries</label>
+                                                                <label for="countries" class="font-medium text-sm text-slate-600 dark:text-slate-400">Ocena</label>
                                                             </div><!--end col-->
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
                                                                 <select id="countries" class=" w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-[6.5px] focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
@@ -1099,154 +939,13 @@
                                     <span class="text-slate-500 mr-2 text-[11px]">Tester</span>
                                 </div>
                             </div>
-                        </div> <!--end card body-->
-                    </div><!--end card--> 
-                    <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative">
-                        <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                            <h4 class="font-medium">Twitter Feed</h4>
-                        </div><!--end header-title-->
-                        <div class="flex-auto p-4"> 
-                            <div class=" mb-4">
-                                <div class="flex items-center">
-                                    <img src="assets/images/users/avatar-2.png" alt="" class="mr-2 h-9 inline-block rounded-full">
-                                    <div class="self-center">                                                
-                                        <a href="#" class="text-sm font-medium hover:text-primary-500 block text-slate-700 dark:text-gray-400 leading-[8px]">Nicolas Wright </a>
-                                        <span class="text-slate-500 mr-2 text-[11px]">@nicolas_wright</span>
-                                    </div>
-                                </div>
-                                <p class="text-sm text-slate-500 dark:text-slate-400 mt-2">There are many variations of <a href="#" class="text-cyan-500">#Passages</a> of Lorem Ipsum available, but the majority ✨ have suffered alteration in <a href="#" class="text-cyan-500">#Some</a> form.</p>
-                            </div>
-                            <div class="mb-4">
-                                <div class="flex items-center">
-                                    <img src="assets/images/users/avatar-4.png" alt="" class="mr-2 h-9 inline-block rounded-full">
-                                    <div class="self-center">                                                
-                                        <a href="#" class="text-sm font-medium hover:text-primary-500 block text-slate-700 dark:text-gray-400 leading-[8px]">Louise Baker </a>
-                                        <span class="text-slate-500 mr-2 text-[11px]">@louise-baker</span>
-                                    </div>
-                                </div>
-                                <p class="text-sm text-slate-500 dark:text-slate-400 mt-2">There are many variations of <a href="#" class="text-cyan-500">#Passages</a> of Lorem Ipsum available,🎉 have suffered alteration in <a href="#" class="text-cyan-500">#Some</a> form.</p>
-                            </div>
-                            <div class="mb-4">
-                                <div class="flex items-center">
-                                    <img src="assets/images/users/avatar-5.png" alt="" class="mr-2 h-9 inline-block rounded-full">
-                                    <div class="self-center">                                                
-                                        <a href="#" class="text-sm font-medium hover:text-primary-500 block text-slate-700 dark:text-gray-400 leading-[8px]">Thomas Jewell </a>
-                                        <span class="text-slate-500 mr-2 text-[11px]">@thomas_jewell</span>
-                                    </div>
-                                </div>
-                                <p class="text-sm text-slate-500 dark:text-slate-400 mt-2">There are many variations of <a href="#" class="text-cyan-500">#Passages</a> ❤️ of Lorem Ipsum available, but the  have suffered alteration in <a href="#" class="text-cyan-500">#Some</a> form.</p>
-                            </div>
-                        </div> <!--end card body-->
-                    </div><!--end card-->                                    
-                </div><!--end col--> 
-            </div><!--end grid--> 
-            <!-- footer -->
-            <div class="absolute bottom-0 -left-4 -right-4 block print:hidden border-t p-4 h-[52px] dark:border-slate-700/40">
-                <div class="container">
-                    <!-- Footer Start -->
-                    <footer
-                    class="footer bg-transparent  text-center  font-medium text-slate-600 dark:text-slate-400 md:text-left "
-                    >
-                    &copy;
-                    <script>
-                        var year = new Date();document.write(year.getFullYear());
-                    </script>
-                    Robotech
-                    <span class="float-right hidden text-slate-600 dark:text-slate-400 md:inline-block"
-                        >Crafted with <i class="ti ti-heart text-red-500"></i> by
-                        Mannatthemes</span
-                    >
-                    </footer>
-                    <!-- end Footer -->
+                        </div>
+                    </div>
                 </div>
-            </div> 
-        </div><!--end container-->
-		<div class="main-content-container xl:w-full  min-h-[calc(100vh-138px)] relative pb-14"> 
-			<div class="main-content-wrapper grid grid-cols-12 sm:grid-cols-12 md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12 gap-4 justify-between">
-				<div class="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-6 xl:col-span-4">
-					<div class="w-full relative p-4"> 
-						<label for="" class="font-medium text-sm text-slate-600 dark:text-slate-400">Mapa mamaka</label>
-						<div class="w-full h-56 mx-auto mb-4">
-							<input type="file" class="filepond h-56" name="filepond" accept="image/png, image/jpeg, image/gif" />                                    
-						</div>
-						<div id="uploads-container" class="grid grid-cols-2 gap-2">
-							<input type="file" class="filepond"/>
-							<input type="file" class="filepond"/>
-						</div>
-						<div class="btn-holder col-span-12 text-center mt-5">
-							<button id="add-more-uploads" type="button" class="px-2 py-1 lg:px-4 bg-primary text-white text-sm  rounded-full transition hover:bg-primary-600 border border-primary font-medium">Dodaj još mamaca</button>
-						</div>
-					</div>                               
-				</div>
-				<div class="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-6 xl:col-span-8">
-					<div class="w-full relative mb-4">  
-						<form action="javascript:;" class="flex-auto p-0 md:p-4">
-							<div class="mb-2 select-bg-transparent">
-								<label for="default" class="font-medium text-sm text-slate-600 dark:text-slate-400">Izveštaj za klijenta</label>
-								<select id="default" name="company" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700">
-									<option>Delhaize Serbia d.o.o.</option>
-									<option>Delhaize Serbia d.o.o. 2</option>
-									<option>Delhaize Serbia d.o.o. 3</option>
-								</select>
-							</div>
-							<div class="mb-2">
-								<label for="type" class="font-medium text-sm text-slate-600 dark:text-slate-400">Objekat</label>
-								<select id="countries" class=" w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-[6.5px] focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
-                                    <option>United States</option>
-                                    <option>Canada</option>
-                                    <option>France</option>
-                                    <option>Germany</option>
-                                </select>
-							</div>
-							<div class="mb-2">
-								<label for="address" class="font-medium text-sm text-slate-600 dark:text-slate-400">Adresa</label>
-								<input type="text" id="address" name="address" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Adresa" required>
-							</div>
-							<div class="mb-2">
-								<label for="town" class="font-medium text-sm text-slate-600 dark:text-slate-400">Grad</label>
-								<input type="text" id="town" name="town" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Grad" required>
-							</div>
-							<div class="mb-2">
-								<label for="state" class="font-medium text-sm text-slate-600 dark:text-slate-400">Broj izveštaja</label>
-								<input type="text" id="state" name="state" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Zemlja" required>
-							</div>
-							<div class="mb-2">
-								<label for="date" class="font-medium text-sm text-slate-600 dark:text-slate-400">Datum</label>
-								<input id="date" name="date" class="flatpickr form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500 dark:hover:border-slate-700" type="text" placeholder="Select Date.." readonly="readonly">
-							</div>
-							<div class="mb-2">
-								<label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Izvršilac</label>
-								<input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
-							</div>
-							<div class="mb-2">
-								<label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Deratizacione kutije</label>
-								<input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
-							</div>
-							<div class="mb-2">
-								<label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Zamke sa lepkom</label>
-								<input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
-							</div>
-							<div class="mb-2">
-								<label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Insekt lampe</label>
-								<input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
-							</div>
-							<div class="mb-2">
-								<label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Feromonske klopke</label>
-								<input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
-							</div>						
-							<div class="">
-								<button class="px-2 py-2 lg:px-4 bg-brand  text-white text-sm  rounded hover:bg-brand-600 border border-brand-500">Snimi</button>
-								<!-- <button class="px-2 py-2 lg:px-4 bg-transparent  text-brand text-sm  rounded transition hover:bg-brand-500 hover:text-white border border-brand font-medium">Save Product</button> -->
-							</div>
-						</form>
-					</div>                             
-				</div>			                     
-			</div>
-
-			<!-- footer -->
-			<?php include('templates/footer.php'); ?>  
-		</div>
-	</div>
+            </div>
+            <!-- footer -->
+			<?php include('templates/footer.php'); ?>
+        </div>
 </div>
 
 <!-- <div class="menu-overlay"></div> -->
