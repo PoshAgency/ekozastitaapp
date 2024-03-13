@@ -149,7 +149,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																4
 															</td> 
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-check text-xxl text-gray-500 dark:text-gray-400" data-fc-type="modal" data-fc-target="approvemodal"></i></a>
 																<a class="mr-3" href="report-full.php"><i class="icofont-billboard text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-paper-plane text-xxl text-gray-500 dark:text-gray-400"></i></a>
@@ -184,7 +184,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																4
 															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-check text-xxl text-gray-500 dark:text-gray-400" data-fc-type="modal" data-fc-target="approvemodal"></i></a>
 																<a class="mr-3" href="report-full.php"><i class="icofont-billboard text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-paper-plane text-xxl text-gray-500 dark:text-gray-400"></i></a>
@@ -219,7 +219,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																4
 															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-check text-xxl text-gray-500 dark:text-gray-400" data-fc-type="modal" data-fc-target="approvemodal"></i></a>
 																<a class="mr-3" href="report-full.php"><i class="icofont-billboard text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-paper-plane text-xxl text-gray-500 dark:text-gray-400"></i></a>
@@ -254,7 +254,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																4
 															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-check text-xxl text-gray-500 dark:text-gray-400" data-fc-type="modal" data-fc-target="approvemodal"></i></a>
 																<a class="mr-3" href="report-full.php"><i class="icofont-billboard text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-paper-plane text-xxl text-gray-500 dark:text-gray-400"></i></a>
@@ -289,7 +289,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																4
 															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-check text-xxl text-gray-500 dark:text-gray-400" data-fc-type="modal" data-fc-target="approvemodal"></i></a>
 																<a class="mr-3" href="report-full.php"><i class="icofont-billboard text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-paper-plane text-xxl text-gray-500 dark:text-gray-400"></i></a>
@@ -324,7 +324,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																4
 															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-check text-xxl text-gray-500 dark:text-gray-400" data-fc-type="modal" data-fc-target="approvemodal"></i></a>
 																<a class="mr-3" href="report-full.php"><i class="icofont-billboard text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-paper-plane text-xxl text-gray-500 dark:text-gray-400"></i></a>
@@ -359,7 +359,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																4
 															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-check text-xxl text-gray-500 dark:text-gray-400" data-fc-type="modal" data-fc-target="approvemodal"></i></a>
 																<a class="mr-3" href="report-full.php"><i class="icofont-billboard text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-paper-plane text-xxl text-gray-500 dark:text-gray-400"></i></a>
@@ -394,7 +394,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																4
 															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-check text-xxl text-gray-500 dark:text-gray-400" data-fc-type="modal" data-fc-target="approvemodal"></i></a>
 																<a class="mr-3" href="report-full.php"><i class="icofont-billboard text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-paper-plane text-xxl text-gray-500 dark:text-gray-400"></i></a>
@@ -429,7 +429,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																4
 															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-check text-xxl text-gray-500 dark:text-gray-400" data-fc-type="modal" data-fc-target="approvemodal"></i></a>
 																<a class="mr-3" href="report-full.php"><i class="icofont-billboard text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-paper-plane text-xxl text-gray-500 dark:text-gray-400"></i></a>
@@ -464,7 +464,7 @@
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																4
 															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-check text-xxl text-gray-500 dark:text-gray-400" data-fc-type="modal" data-fc-target="approvemodal"></i></a>
 																<a class="mr-3" href="report-full.php"><i class="icofont-billboard text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-paper-plane text-xxl text-gray-500 dark:text-gray-400"></i></a>

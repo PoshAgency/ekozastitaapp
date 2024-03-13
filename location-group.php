@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
-<body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="preparation-group-page bg-[#EEF0FC] dark:bg-gray-900">
+<body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical" class="location-group-page bg-[#EEF0FC] dark:bg-gray-900">
 
 <!-- leftbar-tab-menu -->
 <?php include('templates/left-bar.php'); ?>		
@@ -20,12 +20,12 @@
 <div class="page-container ltr:flex flex-1 rtl:flex-row-reverse">
 	<div class="page-wrapper relative ltr:ml-auto rtl:mr-auto rtl:ml-0 w-[calc(100%-260px)] px-4 pt-[64px] duration-300">
 		<div class="breadcrumbs-container xl:w-full">
-			<div class="flex flex-wrap">	
+			<div class="flex flex-wrap">
 				<div class="flex items-center py-4 w-full">
 					<div class="w-full">
 						<div class="flex flex-wrap justify-between">
 							<div class="items-center">
-								<h1 class="font-medium text-3xl block dark:text-slate-100">Lista preparata</h1>
+								<h1 class="font-medium text-3xl block dark:text-slate-100">Objekti</h1>
 								<ol class="list-reset flex text-sm">
 									<li>
 										<a href="#" class="text-gray-500 dark:text-slate-400">Ekozaštita</a>
@@ -33,7 +33,7 @@
 									<li>
 										<span class="text-gray-500 dark:text-slate-400 mx-2">/</span>
 									</li>
-									<li class="text-primary-500 hover:text-primary-600 dark:text-primary-400">Lista preparata</li>
+									<li class="text-primary-500 hover:text-primary-600 dark:text-primary-400">Objekat 1</li>
 								</ol>
 							</div>
 							<div class="flex items-center">
@@ -63,8 +63,8 @@
 									</form>
 								</div>
 								<div>
-									<a href="preparation-full-edit.php" class="inline-block focus:outline-none bg-brand-500 mt-1 text-white hover:bg-brand-600 hover:text-white  text-md font-medium py-2 px-4 rounded">
-										Dodaj preparat
+									<a href="employees-full-edit.php" class="inline-block focus:outline-none bg-brand-500 mt-1 text-white hover:bg-brand-600 hover:text-white  text-md font-medium py-2 px-4 rounded">
+										Dodaj Operatera
 									</a>
 								</div>
 							</div>
@@ -86,9 +86,9 @@
 																</label>
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Ime preparata
+																Ime i prezime
 															</th>
-															<!-- <th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
+															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
 																Telefon
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
@@ -99,7 +99,7 @@
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
 																Akcija
-															</th> -->
+															</th>
 														</tr>
 													</thead>
 													<tbody>
@@ -114,14 +114,14 @@
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<a href="preparation-full-edit.php" class="flex items-center">
+																<a href="employees-full-edit.php" class="flex items-center">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Preparat 1</h5>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Dragan Dragutinović</h5>
 																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
-															<!-- <td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -129,9 +129,9 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
-															</td> -->
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
-																<a class="mr-3" href="preparation-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="employees-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
@@ -146,14 +146,14 @@
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<a href="preparation-full-edit.php" class="flex items-center">
+																<a href="employees-full-edit.php" class="flex items-center">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Preparat 2</h5>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Dragan Dragutinović</h5>
 																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
-															<!-- <td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -161,9 +161,9 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
-															</td> -->
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
-																<a class="mr-3" href="preparation-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="employees-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
@@ -178,14 +178,14 @@
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<a href="preparation-full-edit.php" class="flex items-center">
+																<a href="employees-full-edit.php" class="flex items-center">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Preparat 3</h5>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Luna Winston</h5>
 																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
-															<!-- <td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -193,9 +193,9 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
-															</td> -->
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
-																<a class="mr-3" href="preparation-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="employees-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
@@ -210,14 +210,14 @@
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<a href="preparation-full-edit.php" class="flex items-center">
+																<a href="employees-full-edit.php" class="flex items-center">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Preparat 4</h5>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Alejandro Ruiz</h5>
 																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
-															<!-- <td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -225,9 +225,9 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
-															</td> -->
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
-																<a class="mr-3" href="preparation-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="employees-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
@@ -242,14 +242,14 @@
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<a href="preparation-full-edit.php" class="flex items-center">
+																<a href="employees-full-edit.php" class="flex items-center">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Preparat 5</h5>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Jesus Oates</h5>
 																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
-															<!-- <td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -257,9 +257,9 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
-															</td> -->
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
-																<a class="mr-3" href="preparation-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="employees-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
@@ -274,14 +274,14 @@
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<a href="preparation-full-edit.php" class="flex items-center">
+																<a href="employees-full-edit.php" class="flex items-center">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Preparat 6</h5>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Glenn Rogers</h5>
 																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
-															<!-- <td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -289,9 +289,9 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
-															</td> -->
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
-																<a class="mr-3" href="preparation-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="employees-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
@@ -306,14 +306,14 @@
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<a href="preparation-full-edit.php" class="flex items-center">
+																<a href="employees-full-edit.php" class="flex items-center">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Preparat 7</h5>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">April Boyce</h5>
 																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
-															<!-- <td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -321,9 +321,9 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
-															</td> -->
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
-																<a class="mr-3" href="preparation-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="employees-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
@@ -338,14 +338,14 @@
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<a href="preparation-full-edit.php" class="flex items-center">
+																<a href="employees-full-edit.php" class="flex items-center">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Preparat 8</h5>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Maria Johnson</h5>
 																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
-															<!-- <td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -353,9 +353,9 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
-															</td> -->
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
-																<a class="mr-3" href="preparation-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="employees-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
@@ -370,14 +370,14 @@
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<a href="preparation-full-edit.php" class="flex items-center">
+																<a href="employees-full-edit.php" class="flex items-center">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Preparat 9</h5>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Anna Ruiz</h5>
 																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
 															</td>
-															<!-- <td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																+1 123 456789
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
@@ -385,9 +385,9 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
-															</td> -->
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
-																<a class="mr-3" href="preparation-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="employees-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>
@@ -402,12 +402,13 @@
 																</label>
 															</td>
 															<td class="p-3 text-sm font-medium whitespace-nowrap dark:text-white">
-																<a href="preparation-full-edit.php" class="flex items-center">
+																<a href="employees-full-edit.php" class="flex items-center">
 																	<div class="self-center">                                                                        
-																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Preparat 10</h5>
+																		<h5 class="text-sm font-semibold text-slate-700 dark:text-gray-400">Lisa Henriquez</h5>
+																		<!-- <span class="block  font-medium text-slate-500">maloprodajni lanac prodavnica</span> -->
 																	</div>
 																</a>
-															<!-- </td>
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																+1 123 456789
 															</td>
@@ -416,9 +417,9 @@
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
-															</td> -->
+															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
-																<a class="mr-3" href="preparation-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
+																<a class="mr-3" href="employees-full-edit.php"><i class="icofont-ui-edit text-xxl text-gray-500 dark:text-gray-400"></i></a>
 																<a class="mr-3" href="javascript:;"><i class="icofont-ui-delete text-xxl text-red-500 dark:text-red-400" data-fc-type="modal" data-fc-target="smallmodal"></i></a>
 															</td>
 														</tr>

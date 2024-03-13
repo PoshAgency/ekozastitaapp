@@ -51,14 +51,14 @@
 									</a>
 								</li>
 								<li class="nav-item relative block">
-									<a href="location-category.php"
+									<a href="location-group.php"
 										class="nav-link hover:text-primary-500 rounded-md dark:hover:text-primary-500 relative group-data-[sidebar=brand]:hover:text-slate-200 flex items-center decoration-0 px-3 py-3">
 										<i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
 										Tipovi objekata
 									</a>
 								</li>
 								<li class="nav-item relative block">
-									<a href="bait-group.php"
+									<a href="preparation-group.php"
 										class="nav-link hover:text-primary-500 rounded-md dark:hover:text-primary-500 relative group-data-[sidebar=brand]:hover:text-slate-200 flex items-center decoration-0 px-3 py-3">
 										<i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
 										Lista preparata
