@@ -98,7 +98,7 @@
 																Grad
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Akcija
+																&nbsp;
 															</th>
 														</tr>
 													</thead>

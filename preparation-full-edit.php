@@ -53,11 +53,11 @@
 						<div id="uploads-container" class="grid grid-cols-2 gap-2">
 							<div class="mb-2">
 								<input type="file" class="filepond mb-1"/>
-								<input type="text" name="" class="form-input w-full rounded-md border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="https://ekozastita.com/upload/dokument-01.pdf" required="">
+								<input type="text" name="" class="form-input w-full rounded-md border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Ime dokumenta" required="">
 							</div>
 							<div class="mb-2">
 								<input type="file" class="filepond mb-1"/>
-								<input type="text" name="" class="form-input w-full rounded-md border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="https://ekozastita.com/upload/dokument-01.pdf" required="">
+								<input type="text" name="" class="form-input w-full rounded-md border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Ime dokumenta" required="">
 							</div>
 						</div>
 						<div class="btn-holder col-span-12 text-center mt-5">
@@ -128,7 +128,7 @@ document.getElementById("add-more-uploads").addEventListener("click", function()
     var pathInput = document.createElement("input");
     pathInput.setAttribute("type", "text");
     pathInput.classList.add("form-input", "w-full", "rounded-md", "border", "border-slate-300/60", "dark:border-slate-700", "dark:text-slate-300", "bg-transparent", "px-3", "py-1", "focus:outline-none", "focus:ring-0", "placeholder:text-slate-400/70", "placeholder:font-normal", "placeholder:text-sm", "hover:border-slate-400", "focus:border-primary-500", "dark:focus:border-primary-500", "dark:hover:border-slate-700");
-    pathInput.setAttribute("placeholder", "https://ekozastita.com/upload/dokument-01.pdf");
+    pathInput.setAttribute("placeholder", "Ime dokumenta");
     pathInput.setAttribute("required", "");
     parentDiv.appendChild(pathInput);
     container.appendChild(parentDiv);

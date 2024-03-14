@@ -135,3 +135,34 @@ input[type="checkbox"] {
 .border-brand-300 {
 	border-color: inherit !important;
 }
+.hover\:text-white:hover {
+	background-color: rgb(17 156 73 / 0.8) !important;
+}
+.hover\:bg-brand-600:hover {
+	background-color: rgb(17 156 73 / 0.8) !important;
+}
+.accent-primary-500 {
+	accent-color: rgb(17 156 73 / 1) !important;
+}
+.reports-slider {
+	max-width: 800px;
+}
+.sticky {
+	position: sticky !important;
+	z-index: 1000;
+}
+.top-70 {
+	top: 70px;
+}
+.mh-100vh {
+	max-height: 100vh;
+}
+html {
+	scroll-behavior: smooth;
+}
+[anchor] {
+	scroll-margin-top: 140px;
+}
+.selectr-tag {
+	background: rgb(17 156 73 / 1);
+}

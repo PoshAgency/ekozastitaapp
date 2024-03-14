@@ -84,22 +84,16 @@
 																Klijent
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Telefon
-															</th>
-															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Email
-															</th>
-															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
 																Grad
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
 																Adresa
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Kontakt osaoba
+																Kontakt
 															</th>
 															<th scope="col" class="p-3 text-xs font-medium tracking-wider text-left text-gray-700 dark:text-gray-400 uppercase">
-																Akcija
+																&nbsp;
 															</th>
 														</tr>
 													</thead>
@@ -124,18 +118,12 @@
 																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																+1 123 456789
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>                                                                    
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
@@ -163,18 +151,12 @@
 																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																+1 123 456789
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
@@ -202,18 +184,12 @@
 																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																+1 123 456789
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
@@ -241,18 +217,12 @@
 																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																+1 123 456789
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
@@ -280,18 +250,12 @@
 																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																+1 123 456789
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
@@ -319,18 +283,12 @@
 																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																+1 123 456789
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
@@ -358,18 +316,12 @@
 																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																+1 123 456789
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
@@ -397,18 +349,12 @@
 																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																+1 123 456789
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
@@ -436,18 +382,12 @@
 																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																+1 123 456789
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">
@@ -475,18 +415,12 @@
 																</a>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																+1 123 456789
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
-																<a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
-															</td>
-															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																<span class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">Beograd</span>
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">
 																Jurija Gagarina 14
 															</td>
-															<td class="p-3 text-xxl text-gray-800 whitespace-nowrap dark:text-gray-400">
+															<td class="p-3 text-sm text-gray-800 whitespace-nowrap dark:text-gray-400">
 																Maja Mandić
 															</td>
 															<td class="p-3 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400 text-right">

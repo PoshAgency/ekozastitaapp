@@ -29,12 +29,12 @@
 					</div>
 				</div>
 			</div> -->
-			<div class="ltr:me-2 ltr:md:me-4 rtl:me-0 rtl:ms-2 rtl:lg:me-0 rtl:md:ms-4">
+			<!-- <div class="ltr:me-2 ltr:md:me-4 rtl:me-0 rtl:ms-2 rtl:lg:me-0 rtl:md:ms-4">
 				<button id="toggle-theme" class="flex rounded-full md:me-0 relative">
 					<span data-lucide="moon" class="top-icon w-5 h-5 light"></span>
 					<span data-lucide="sun" class="top-icon w-5 h-5 dark hidden"></span>
 				</button>
-			</div>
+			</div> -->
 			<div class="ltr:me-2 ltr:lg:me-4 rtl:me-0 rtl:ms-2 rtl:lg:me-0 rtl:md:ms-4 dropdown relative">
 				<button type="button" class="dropdown-toggle flex rounded-full md:me-0" id="Notifications" aria-expanded="false" data-fc-autoclose="both" data-fc-type="dropdown">
 					<span data-lucide="bell" class="top-icon w-5 h-5"></span>

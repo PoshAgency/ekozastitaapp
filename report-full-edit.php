@@ -41,48 +41,15 @@
 									<li class="text-primary-500 hover:text-primary-600 dark:text-primary-400">Izveštaji</li>
 								</ol>
 							</div>
-							<!-- <div class="flex items-center">
-								<div class="today-date leading-5 mt-2 lg:mt-0 form-input w-auto rounded-md border inline-block border-primary-500/60 dark:border-primary-500/60 text-primary-500 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-primary-400 focus:border-primary-500 dark:focus:border-primary-500 dark:hover:border-slate-700">
-									<input type="text" class="dash_date border-0 focus:border-0 focus:outline-none" readonly required="" />
-								</div>
-							</div> -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="xl:w-full  min-h-[calc(100vh-152px)] relative pb-14">                                   
-            <div class="grid md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12 gap-4 ">
-                <div class="sm:col-span-12  md:col-span-12 lg:col-span-12 xl:col-span-12 ">
-                    <div class="w-full relative overflow-hidden">                   
-                        <div class="p-0 xl:p-4">                        
-                            <div class="mb-4 border-b border-dashed border-gray-200 dark:border-gray-700 flex flex-wrap justify-start lg:justify-between" data-fc-type="tab">                            
-                                <ul class="flex flex-wrap mb-5 lg:-mb-px" aria-label="Tabs">
-                                    <li class="mr-2" role="presentation">
-                                        <button class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300 border-gray-100 dark:border-gray-700 active" id="deratizacija-tab" data-fc-target="#tab-1"  type="button" role="tab" aria-controls="deratizacija" aria-selected="false">Deratizacija</button>
-                                    </li>
-                                    <li class="mr-2" role="presentation">
-                                        <button class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300 border-gray-100 dark:border-gray-700" id="dezinfekcija-tab" data-fc-target="#tab-2"  type="button" role="tab" aria-controls="dezinfekcija" aria-selected="false">Dezinfekcija</button>
-                                    </li>
-                                    <li class="mr-2" role="presentation">
-                                        <button class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300 border-gray-100 dark:border-gray-700" id="dezinsekcija-tab" data-fc-target="#tab-3"  type="button" role="tab" aria-controls="dezinsekcija" aria-selected="false">Dezinsekcija</button>
-                                    </li>
-                                    <li role="presentation">
-                                        <button class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300 border-gray-100 dark:border-gray-700" id="ostale-usluge-tab" data-fc-target="#tab-4" type="button" role="tab" aria-controls="ostale-usluge" aria-selected="false">Ostale usluge</button>
-                                    </li>
-                                    <li role="presentation">
-                                        <button class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300 border-gray-100 dark:border-gray-700" id="korisceni-preprati-tab" data-fc-target="#tab-5" type="button" role="tab" aria-controls="korisceni-preprati" aria-selected="false">Koriščeni preprati</button>
-                                    </li>
-                                </ul>                         
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>  
-            
+		<div class="xl:w-full  min-h-[calc(100vh-152px)] relative pb-14">            
             <div class="grid md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12 gap-4 mb-4">
-                <div class="sm:col-span-12  md:col-span-12 lg:col-span-3 xl:col-span-3">
+                <div class="sm:col-span-12  md:col-span-12 lg:col-span-3 xl:col-span-3 sticky top-70 mh-100vh">
                     <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative">
                         <div class="flex-auto p-4">
                             <h5 class="text-lg font-medium text-slate-700 dark:text-slate-300 mb-3">Izveštaj 1450 <i class="fas fa-minus text-primary-500"></i></h5>
@@ -96,39 +63,64 @@
                                     </select>
                                 </div>
                                 <div class="mb-2">
-                                    <label for="type" class="font-medium text-sm text-slate-600 dark:text-slate-400">Objekat</label>
-                                    <input type="text" id="type" name="type" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Tip objekta" required>
+								    <label for="type" class="font-medium text-sm text-slate-600 dark:text-slate-400">Objekat</label>
+								    <select id="work_order_type" name="work_order_type" class="w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-[6.5px] focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
+                                        <option>Objekat 1</option>
+                                        <option>Objekat 2</option>
+                                        <option>Objekat 3</option>
+                                    </select>
                                 </div>
                                 <div class="mb-2">
                                     <label for="address" class="font-medium text-sm text-slate-600 dark:text-slate-400">Adresa</label>
-                                    <input type="text" id="address" name="address" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Adresa" required>
+                                    <input readonly  value="Jurija Gagarina 14" type="text" id="address" name="address" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Adresa" required>
                                 </div>
                                 <div class="mb-2">
                                     <label for="town" class="font-medium text-sm text-slate-600 dark:text-slate-400">Grad</label>
-                                    <input type="text" id="town" name="town" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Grad" required>
+                                    <input readonly  value="Beograd" type="text" id="town" name="town" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Grad" required>
                                 </div>
-                                <div class="mb-2">
+                                <!-- <div class="mb-2">
                                     <label for="state" class="font-medium text-sm text-slate-600 dark:text-slate-400">Broj izveštaja</label>
                                     <input type="text" id="state" name="state" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Zemlja" required>
-                                </div>
+                                </div> -->
                                 <div class="mb-2">
                                     <label for="date" class="font-medium text-sm text-slate-600 dark:text-slate-400">Datum</label>
-                                    <input id="date" name="date" class="flatpickr form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500 dark:hover:border-slate-700" type="text" placeholder="Select Date.." readonly="readonly">
+                                    <input value="13.03.2024." id="date" name="date" class="flatpickr form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500 dark:hover:border-slate-700" type="text" placeholder="Select Date.." readonly="readonly">
                                 </div>
                                 <div class="mb-2">
                                     <label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Izvršilac</label>
-                                    <input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
+                                    <input  readonly value="Marko Marković" type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
                                 </div>
                             </form>
-                        </div><!--end card-body-->
-                    </div> <!--end card-->
+                        </div>
+                    </div>
                 </div>
                 <div class="sm:col-span-12  md:col-span-12 lg:col-span-6 xl:col-span-6 ">
+                    <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4 sticky top-70">
+                        <div class="mb-4 border-b border-dashed border-gray-200 dark:border-gray-700 flex flex-wrap justify-start lg:justify-between" data-fc-type="tab">                            
+                            <ul class="flex flex-wrap mb-5 lg:-mb-px" aria-label="Tabs">
+                                <li class="mr-2" role="presentation">
+                                    <a href="#tab1" class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300 border-gray-100 dark:border-gray-700 active" id="deratizacija-tab">Deratizacija</a>
+                                </li>
+                                <li class="mr-2" role="presentation">
+                                    <a href="#tab2" class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300 border-gray-100 dark:border-gray-700" id="dezinfekcija-tab">Dezinfekcija</a>
+                                </li>
+                                <li class="mr-2" role="presentation">
+                                    <a href="#tab3" class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300 border-gray-100 dark:border-gray-700" id="dezinsekcija-tab">Dezinsekcija</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#tab4" class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300 border-gray-100 dark:border-gray-700" id="ostale-usluge-tab">Ostale usluge</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#tab5" class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-300 border-gray-100 dark:border-gray-700" id="korisceni-preprati-tab">Koriščeni preprati</a>
+                                </li>
+                            </ul>                         
+                        </div>
+                    </div>
                     <div class="w-full relative">             
                         <div class="p-0"> 
-                            <div id="myTabContent">
-                                <div class="active" id="tab-1" role="tabpanel" aria-labelledby="deratizacija-tab">
-                                    <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
+                            <div id="myTabContent">                             
+                                <div id="tab-2">
+                                    <div id="tab1" class="bg-white dark:bg-slate-800 shadow rounded-md w-full relative mb-4" anchor="">
                                         <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
                                             <h4 class="font-medium">Deratizacija</h4>
                                         </div>
@@ -150,13 +142,13 @@
                                                             </div>
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
                                                                 <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Komentar</label>
-                                                            </div><!--end col-->
+                                                            </div>
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
                                                                 <textarea id="message" rows="2" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Write a comment and press enter"></textarea>
-                                                            </div><!--end col-->
+                                                            </div>
                                                              <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
                                                                 <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Fotografija</label>
-                                                            </div><!--end col-->
+                                                            </div>
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
                                                                 <div class="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-6 xl:col-span-4">
                                                                     <div class="w-full relative"> 
@@ -172,16 +164,14 @@
                                                                         </div>
                                                                     </div>                               
                                                                 </div>
-                                                            </div> 
+                                                            </div>  
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>                                  
                                         </div>
-                                    </div> 
-                                </div><!--end tab-pan-->
-                                <div class="hidden" id="tab-2" role="tabpanel" aria-labelledby="dezinfekcija-tab">
-                                    <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
+                                    </div>
+                                    <div id="tab2" class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4" anchor="">
                                         <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
                                             <h4 class="font-medium">Dezinfekcija</h4>
                                         </div>
@@ -203,13 +193,13 @@
                                                             </div>
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
                                                                 <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Komentar</label>
-                                                            </div><!--end col-->
+                                                            </div>
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
                                                                 <textarea id="message" rows="2" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Write a comment and press enter"></textarea>
-                                                            </div><!--end col-->
+                                                            </div>
                                                              <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
                                                                 <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Fotografija</label>
-                                                            </div><!--end col-->
+                                                            </div>
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
                                                                 <div class="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-6 xl:col-span-4">
                                                                     <div class="w-full relative"> 
@@ -232,9 +222,7 @@
                                             </div>                                  
                                         </div>
                                     </div> 
-                                </div>
-                                <div id="tab-3" class="hidden" role="tabpanel" aria-labelledby="dezinskecija-tab">
-                                    <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
+                                    <div id="tab3" class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4" anchor="">
                                         <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
                                             <h4 class="font-medium">Dezinsekcija</h4>
                                         </div>
@@ -256,13 +244,13 @@
                                                             </div>
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
                                                                 <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Komentar</label>
-                                                            </div><!--end col-->
+                                                            </div>
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
                                                                 <textarea id="message" rows="2" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Write a comment and press enter"></textarea>
-                                                            </div><!--end col-->
+                                                            </div>
                                                              <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
                                                                 <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Fotografija</label>
-                                                            </div><!--end col-->
+                                                            </div>
                                                             <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
                                                                 <div class="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-6 xl:col-span-4">
                                                                     <div class="w-full relative"> 
@@ -284,14 +272,10 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                    </div>                               
-                                </div>
-                                <div class="hidden" id="tab-4" role="tabpanel" aria-labelledby="ostale-usluge-tab">
-                                    <div class="grid md:grid-cols-12 lg:grid-cols-12 xl:grid-cols-12 gap-4">
-                                        <div class="col-span-12 md:col-span-12 lg:col-span-12 xl:col-span-12">
-                                            <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
+                                    </div> 
+                                    <div id="tab4" class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4" anchor="">
                                         <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                                            <h4 class="font-medium">Ostale informacije</h4>
+                                            <h4 class="font-medium">Ostale usluge</h4>
                                         </div>
                                         <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
                                             <div class="flex sm:items-center justify-between">
@@ -333,103 +317,100 @@
                                                                         </div>
                                                                     </div>                               
                                                                 </div>
-                                                            </div> 
+                                                            </div>  
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>                                  
                                         </div>
                                     </div> 
-                                </div>                                                                           
-                            </div>
-                        </div>
-                        <div class="hidden" id="tab-5" role="tabpanel" aria-labelledby="korisceni-preparati-tab">
-                            <div class="bg-white dark:bg-slate-800 shadow rounded-md w-full relative mb-4">
-                                <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                                    <h4 class="font-medium">Korišćeni preparati</h4>
-                                </div>
-                                <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                                    <div class="flex sm:items-center justify-between">
-                                        <div class="flex items-center space-x-2 w-full">                                                    
-                                            <div class="w-full"> 
-                                                <div class="grid md:grid-cols-12 lg:grid-cols-12">
-                                                    <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
-                                                        <label for="countries" class="font-medium text-sm text-slate-600 dark:text-slate-400">Preparati</label>
-                                                    </div>
-                                                    <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
-                                                        <select id="multiSelect" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
-                                                            <option>Prepartat 1</option>
-                                                            <option>Prepartat 2</option>
-                                                            <option>Prepartat 3</option>
-                                                            <option>Prepartat 4</option>
-                                                            <option>Prepartat 5</option>
-                                                            <option>Prepartat 6</option>
-                                                            <option>Prepartat 7</option>
-                                                            <option>Prepartat 8</option>
-                                                            <option>Prepartat 9</option>
-                                                            <option>Prepartat 10</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
-                                                        <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Komentar</label>
-                                                    </div>
-                                                    <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
-                                                        <textarea id="message" rows="2" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Write a comment and press enter"></textarea>
+                                    <div id="tab5" class="bg-white dark:bg-slate-800 shadow rounded-md w-full relative mb-4" anchor="">
+                                        <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
+                                            <h4 class="font-medium">Korišćeni preparati</h4>
+                                        </div>
+                                        <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
+                                            <div class="flex sm:items-center justify-between">
+                                                <div class="flex items-center space-x-2 w-full">                                                    
+                                                    <div class="w-full"> 
+                                                        <div class="grid md:grid-cols-12 lg:grid-cols-12">
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="countries" class="font-medium text-sm text-slate-600 dark:text-slate-400">Preparati</label>
+                                                            </div>
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <select id="multiSelect" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700">
+                                                                    <option>Prepartat 1</option>
+                                                                    <option>Prepartat 2</option>
+                                                                    <option>Prepartat 3</option>
+                                                                    <option>Prepartat 4</option>
+                                                                    <option>Prepartat 5</option>
+                                                                    <option>Prepartat 6</option>
+                                                                    <option>Prepartat 7</option>
+                                                                    <option>Prepartat 8</option>
+                                                                    <option>Prepartat 9</option>
+                                                                    <option>Prepartat 10</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-3 self-center text-right mr-2">
+                                                                <label for="Contact_Phone" class="font-medium text-sm text-slate-600 dark:text-slate-400">Komentar</label>
+                                                            </div>
+                                                            <div class="col-span-12 md:col-span-12 lg:col-span-9  mb-2">
+                                                                <textarea id="message" rows="2" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-1 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-primary-500 dark:focus:border-primary-500  dark:hover:border-slate-700" placeholder="Write a comment and press enter"></textarea>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div>                                  
                                         </div>
-                                    </div>                                  
-                                </div>
-                            </div> 
+                                    </div> 
+                                </div>                                       
+                            </div>
                         </div>
                     </div>
-                </div>
-                </div>
-            </div> 
-            <div class="sm:col-span-12  md:col-span-12 lg:col-span-3 xl:col-span-3 ">
-                <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
-                    <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                        <h4 class="font-medium">Opšte informacije</h4>
-                        <form action="javascript:;" class="flex-auto p-0 md:p-4">                              
-                            <div class="mb-2">
-                                <label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Deratizacione kutije</label>
-                                <input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
-                            </div>
-                            <div class="mb-2">
-                                <label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Zamke sa lepkom</label>
-                                <input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
-                            </div>
-                            <div class="mb-2">
-                                <label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Insekt lampe</label>
-                                <input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
-                            </div>
-                            <div class="mb-2">
-                                <label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Feromonske klopke</label>
-                                <input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
-                            </div>
-                        </form>
+                </div> 
+                <div class="sm:col-span-12  md:col-span-12 lg:col-span-3 xl:col-span-3 sticky top-70 mh-100vh">
+                    <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
+                        <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
+                            <h4 class="font-medium">Opšte informacije</h4>
+                            <form action="javascript:;" class="flex-auto p-0 md:p-4">                              
+                                <div class="mb-2">
+                                    <label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Deratizacione kutije</label>
+                                    <input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Zamke sa lepkom</label>
+                                    <input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Insekt lampe</label>
+                                    <input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="contact_name" class="font-medium text-sm text-slate-600 dark:text-slate-400">Feromonske klopke</label>
+                                    <input type="text" id="contact_name" name="contact_name" class="form-input w-full rounded-md mt-1 border border-slate-300/60 dark:border-slate-700 dark:text-slate-300 bg-transparent px-3 py-2 focus:outline-none focus:ring-0 placeholder:text-slate-400/70 placeholder:font-normal placeholder:text-sm hover:border-slate-400 focus:border-brand-500 dark:focus:border-brand-500 dark:hover:border-slate-700" placeholder="Kontakt osoba" required>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                </div>
-                <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
-                    <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
-                        <h4 class="font-medium">Akcije</h4>
-                        <div class="flex-auto p-0 md:p-4">                            			
-                            <div class="mb-2">
-                                <button class="px-2 py-2 lg:px-4 bg-brand text-white text-sm rounded hover:bg-brand-600 border border-brand-500">Odobri izveštaj</button>
-                                <button class="px-2 py-2 lg:px-4 bg-transparent  text-brand text-sm rounded transition hover:bg-brand-500 hover:text-white border border-brand font-medium">Snimi PDF</button>
-                                <button type="submit" class="px-2 py-2 lg:px-4 bg-transparent  text-brand text-sm rounded transition hover:bg-brand-500 hover:text-white border border-brand font-medium">Pošalji</button>
-                            </div>
-                            <div>
-                                <button class="px-2 py-2 w-full lg:px-4 bg-brand text-white text-sm rounded hover:bg-brand-600 border border-brand-500">Snimi izmene</button>
+                    <div class="bg-white dark:bg-slate-800 shadow  rounded-md w-full relative mb-4">
+                        <div class="border-b border-dashed border-slate-200 dark:border-slate-700 py-3 px-4 dark:text-slate-300/70">
+                            <h4 class="font-medium">Akcije</h4>
+                            <div class="flex-auto p-0 md:p-4">                            			
+                                <div class="mb-2">
+                                    <button class="px-2 py-2 lg:px-4 bg-brand text-white text-sm rounded hover:bg-brand-600 border border-brand-500">Odobri izveštaj</button>
+                                    <button class="px-2 py-2 lg:px-4 bg-transparent  text-brand text-sm rounded transition hover:bg-brand-500 hover:text-white border border-brand font-medium">Snimi PDF</button>
+                                    <button type="submit" class="px-2 py-2 lg:px-4 bg-transparent  text-brand text-sm rounded transition hover:bg-brand-500 hover:text-white border border-brand font-medium">Pošalji</button>
+                                </div>
+                                <div>
+                                    <button class="px-2 py-2 w-full lg:px-4 bg-brand text-white text-sm rounded hover:bg-brand-600 border border-brand-500">Snimi izmene</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         <!-- footer -->
         <?php include('templates/footer.php'); ?>
+        </div>
     </div>
 </div>
 

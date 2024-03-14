@@ -216,35 +216,41 @@
 														<div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper reports-slider">
 															<div class="swiper-wrapper">
 																<div class="swiper-slide">
-																	<img class="w-full" src="assets/images/widgets/1.jpg" alt="">
+																	<img class="w-full" src="assets/images/slider-img-01.jpg" alt="">
 																</div>
 																<div class="swiper-slide">
-																	<img class="w-full" src="assets/images/widgets/2.jpg" alt="">
+																	<img class="w-full" src="assets/images/slider-img-02.jpg" alt="">
 																</div>     
 																<div class="swiper-slide">
-																	<img class="w-full" src="assets/images/widgets/3.jpg" alt="">
+																	<img class="w-full" src="assets/images/slider-img-03.jpg" alt="">
 																</div>
 																<div class="swiper-slide">
-																	<img class="w-full" src="assets/images/widgets/4.jpg" alt="">
+																	<img class="w-full" src="assets/images/slider-img-04.jpg" alt="">
+																</div> 
+																<div class="swiper-slide">
+																	<img class="w-full" src="assets/images/slider-img-05.jpg" alt="">
 																</div> 
 															</div>
 															<div class="swiper-button-next"></div>
 															<div class="swiper-button-prev"></div>
-															</div>
 															<div thumbsSlider="" class="swiper thumbsSwiper">
-															<div class="swiper-wrapper">
-																<div class="swiper-slide">
-																	<img src="assets/images/widgets/3.jpg" alt="">
+																<div class="swiper-wrapper">
+																	<div class="swiper-slide">
+																		<img src="assets/images/slider-img-01.jpg" alt="">
+																	</div>
+																	<div class="swiper-slide">
+																		<img src="assets/images/slider-img-02.jpg" alt="">
+																	</div>  
+																	<div class="swiper-slide">
+																		<img src="assets/images/slider-img-03.jpg" alt="">
+																	</div>
+																	<div class="swiper-slide">
+																		<img src="assets/images/slider-img-04.jpg" alt="">
+																	</div>  
+																	<div class="swiper-slide">
+																		<img src="assets/images/slider-img-05.jpg" alt="">
+																	</div>      
 																</div>
-																<div class="swiper-slide">
-																	<img src="assets/images/widgets/4.jpg" alt="">
-																</div>  
-																<div class="swiper-slide">
-																	<img src="assets/images/widgets/1.jpg" alt="">
-																</div>
-																<div class="swiper-slide">
-																	<img src="assets/images/widgets/5.jpg" alt="">
-																</div>      
 															</div>
 														</div>
 													</div>
